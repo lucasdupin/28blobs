@@ -1,0 +1,20 @@
+<teBlobs>
+	<canvas>
+		<width>1000</width>
+		<height>600</height>
+	</canvas>
+	<cameras>
+		<camera>
+			<width>320</width>
+			<height>240</height>
+		</camera>
+	</cameras>
+	
+	<!-- Theese are application settings, you won't need to change it! -->
+	<application>
+		<canvasColor>
+			<r>100</r><g>0</g><b>130</b>
+			
+		</canvasColor>
+	</application>
+</teBlobs>
