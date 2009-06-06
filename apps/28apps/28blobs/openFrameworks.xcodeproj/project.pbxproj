@@ -14,6 +14,13 @@
 		A5D85C940FD8C1F500DFE6AF /* ofxCvGrayscaleImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85C880FD8C1F500DFE6AF /* ofxCvGrayscaleImage.cpp */; };
 		A5D85C950FD8C1F500DFE6AF /* ofxCvImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85C8A0FD8C1F500DFE6AF /* ofxCvImage.cpp */; };
 		A5D85C960FD8C1F500DFE6AF /* ofxCvShortImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85C8D0FD8C1F500DFE6AF /* ofxCvShortImage.cpp */; };
+		A5D85CA80FDAE3AC00DFE6AF /* Canvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */; };
+		A5D85CD90FDAE58100DFE6AF /* CameraView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */; };
+		A5D85D010FDAE6F600DFE6AF /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85CFA0FDAE6F600DFE6AF /* tinyxml.cpp */; };
+		A5D85D020FDAE6F600DFE6AF /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85CFC0FDAE6F600DFE6AF /* tinyxmlerror.cpp */; };
+		A5D85D030FDAE6F600DFE6AF /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85CFD0FDAE6F600DFE6AF /* tinyxmlparser.cpp */; };
+		A5D85D040FDAE6F600DFE6AF /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85CFF0FDAE6F600DFE6AF /* ofxXmlSettings.cpp */; };
+		A5D85E880FDB018C00DFE6AF /* settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85E870FDB018C00DFE6AF /* settings.cpp */; };
 		E446644B0F5B1CFD005D0BF0 /* ofAppGlutWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E446641A0F5B1CFD005D0BF0 /* ofAppGlutWindow.cpp */; };
 		E446644C0F5B1CFD005D0BF0 /* ofAppRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E446641C0F5B1CFD005D0BF0 /* ofAppRunner.cpp */; };
 		E446644D0F5B1CFD005D0BF0 /* ofArduino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44664200F5B1CFD005D0BF0 /* ofArduino.cpp */; };
@@ -53,7 +60,7 @@
 		E45BEEA30E8CC911009D7055 /* libPocoUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BEE790E8CC911009D7055 /* libPocoUtil.a */; };
 		E45BEEA40E8CC911009D7055 /* libPocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BEE7A0E8CC911009D7055 /* libPocoXML.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
-		E4B69E210A3A1BDC003C02F2 /* mainApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* mainApp.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* MainApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */; };
 		E4B6FCAE0C3E899E008CF71C /* openFrameworks-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +97,18 @@
 		A5D85C8D0FD8C1F500DFE6AF /* ofxCvShortImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvShortImage.cpp; sourceTree = "<group>"; };
 		A5D85C8E0FD8C1F500DFE6AF /* ofxCvShortImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvShortImage.h; sourceTree = "<group>"; };
 		A5D85C8F0FD8C1F500DFE6AF /* ofxOpenCv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOpenCv.h; sourceTree = "<group>"; };
+		A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Canvas.cpp; sourceTree = "<group>"; };
+		A5D85CD70FDAE58100DFE6AF /* CameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraView.h; sourceTree = "<group>"; };
+		A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CameraView.cpp; sourceTree = "<group>"; };
+		A5D85CFA0FDAE6F600DFE6AF /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		A5D85CFB0FDAE6F600DFE6AF /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		A5D85CFC0FDAE6F600DFE6AF /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		A5D85CFD0FDAE6F600DFE6AF /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		A5D85CFF0FDAE6F600DFE6AF /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlSettings.cpp; sourceTree = "<group>"; };
+		A5D85D000FDAE6F600DFE6AF /* ofxXmlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxXmlSettings.h; sourceTree = "<group>"; };
+		A5D85E500FDAFE8400DFE6AF /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		A5D85E870FDB018C00DFE6AF /* settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = settings.cpp; sourceTree = "<group>"; };
 		E44664190F5B1CFD005D0BF0 /* ofAppBaseWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofAppBaseWindow.h; path = ../../../libs/openFrameworks/app/ofAppBaseWindow.h; sourceTree = SOURCE_ROOT; };
 		E446641A0F5B1CFD005D0BF0 /* ofAppGlutWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofAppGlutWindow.cpp; path = ../../../libs/openFrameworks/app/ofAppGlutWindow.cpp; sourceTree = SOURCE_ROOT; };
 		E446641B0F5B1CFD005D0BF0 /* ofAppGlutWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofAppGlutWindow.h; path = ../../../libs/openFrameworks/app/ofAppGlutWindow.h; sourceTree = SOURCE_ROOT; };
@@ -256,8 +275,8 @@
 		E45BEE7A0E8CC911009D7055 /* libPocoXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoXML.a; path = ../../../libs/poco/lib/libPocoXML.a; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* 28blobs.Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 28blobs.Debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* mainApp.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = mainApp.cpp; sourceTree = "<group>"; };
-		E4B69E1F0A3A1BDC003C02F2 /* mainApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = mainApp.h; sourceTree = "<group>"; };
+		E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MainApp.cpp; sourceTree = "<group>"; };
+		E4B69E1F0A3A1BDC003C02F2 /* MainApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MainApp.h; sourceTree = "<group>"; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -296,6 +315,7 @@
 		A5D85C680FD8C1F500DFE6AF /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				A5D85CF80FDAE6F600DFE6AF /* ofxXmlSettings */,
 				A5D85C690FD8C1F500DFE6AF /* ofxOpenCv */,
 			);
 			name = addons;
@@ -385,6 +405,35 @@
 				A5D85C8D0FD8C1F500DFE6AF /* ofxCvShortImage.cpp */,
 				A5D85C8E0FD8C1F500DFE6AF /* ofxCvShortImage.h */,
 				A5D85C8F0FD8C1F500DFE6AF /* ofxOpenCv.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A5D85CF80FDAE6F600DFE6AF /* ofxXmlSettings */ = {
+			isa = PBXGroup;
+			children = (
+				A5D85CF90FDAE6F600DFE6AF /* libs */,
+				A5D85CFE0FDAE6F600DFE6AF /* src */,
+			);
+			path = ofxXmlSettings;
+			sourceTree = "<group>";
+		};
+		A5D85CF90FDAE6F600DFE6AF /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A5D85CFA0FDAE6F600DFE6AF /* tinyxml.cpp */,
+				A5D85CFB0FDAE6F600DFE6AF /* tinyxml.h */,
+				A5D85CFC0FDAE6F600DFE6AF /* tinyxmlerror.cpp */,
+				A5D85CFD0FDAE6F600DFE6AF /* tinyxmlparser.cpp */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		A5D85CFE0FDAE6F600DFE6AF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A5D85CFF0FDAE6F600DFE6AF /* ofxXmlSettings.cpp */,
+				A5D85D000FDAE6F600DFE6AF /* ofxXmlSettings.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -877,9 +926,15 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				A5D85CD70FDAE58100DFE6AF /* CameraView.h */,
+				A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */,
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
-				E4B69E1E0A3A1BDC003C02F2 /* mainApp.cpp */,
-				E4B69E1F0A3A1BDC003C02F2 /* mainApp.h */,
+				E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* MainApp.h */,
+				A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */,
+				A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */,
+				A5D85E500FDAFE8400DFE6AF /* settings.h */,
+				A5D85E870FDB018C00DFE6AF /* settings.cpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -956,7 +1011,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				E4B69E210A3A1BDC003C02F2 /* mainApp.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* MainApp.cpp in Sources */,
 				E446644B0F5B1CFD005D0BF0 /* ofAppGlutWindow.cpp in Sources */,
 				E446644C0F5B1CFD005D0BF0 /* ofAppRunner.cpp in Sources */,
 				E446644D0F5B1CFD005D0BF0 /* ofArduino.cpp in Sources */,
@@ -981,6 +1036,13 @@
 				A5D85C940FD8C1F500DFE6AF /* ofxCvGrayscaleImage.cpp in Sources */,
 				A5D85C950FD8C1F500DFE6AF /* ofxCvImage.cpp in Sources */,
 				A5D85C960FD8C1F500DFE6AF /* ofxCvShortImage.cpp in Sources */,
+				A5D85CA80FDAE3AC00DFE6AF /* Canvas.cpp in Sources */,
+				A5D85CD90FDAE58100DFE6AF /* CameraView.cpp in Sources */,
+				A5D85D010FDAE6F600DFE6AF /* tinyxml.cpp in Sources */,
+				A5D85D020FDAE6F600DFE6AF /* tinyxmlerror.cpp in Sources */,
+				A5D85D030FDAE6F600DFE6AF /* tinyxmlparser.cpp in Sources */,
+				A5D85D040FDAE6F600DFE6AF /* ofxXmlSettings.cpp in Sources */,
+				A5D85E880FDB018C00DFE6AF /* settings.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

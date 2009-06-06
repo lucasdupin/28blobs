@@ -2,10 +2,11 @@
 #define _MAIN_APP
 
 #include "ofMain.h";
-#include "molecula.h";
+#include "ofxXmlSettings.h";
+#include "settings.h"
+#include "Canvas.h";
 
-
-class mainApp : public ofBaseApp{
+class MainApp : public ofBaseApp{
 
 	public:
 		void setup();
@@ -20,6 +21,7 @@ class mainApp : public ofBaseApp{
 		void mouseReleased(int x, int y, int button);
 		void windowResized(int w, int h);
 
+		Canvas canvas;
 };
 
 #endif

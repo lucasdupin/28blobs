@@ -16,7 +16,7 @@ void MainApp::setup(){
 
 //--------------------------------------------------------------
 void MainApp::update(){
-
+	canvas.update();
 }
 
 //--------------------------------------------------------------
@@ -32,7 +32,6 @@ void MainApp::keyPressed(int key){
 void MainApp::keyReleased(int key){
 	//Set to fullscreen?
 	if(key == 'f'){
-		cout << ofGetWindowMode();
 		ofSetFullscreen(!ofGetWindowMode());
 	}
 }

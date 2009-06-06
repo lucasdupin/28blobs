@@ -1,52 +1,66 @@
-#include "mainApp.h"
+#include "MainApp.h"
 
 //--------------------------------------------------------------
-void mainApp::setup(){
+void MainApp::setup(){
 	ofBackground(0,0,0);
-}
-
-//--------------------------------------------------------------
-void mainApp::update(){
-
-}
-
-//--------------------------------------------------------------
-void mainApp::draw(){
 	
+	//Loading settings
+	if(!settings.loadFile("config.xml"))
+		cout << "failed to load config.xml";
+	
+	//Setup
+	canvas.setup();
+	
+	windowResized(ofGetWidth(), ofGetHeight());
 }
 
 //--------------------------------------------------------------
-void mainApp::keyPressed(int key){
+void MainApp::update(){
+	canvas.update();
+}
+
+//--------------------------------------------------------------
+void MainApp::draw(){
+	canvas.draw();
+}
+
+//--------------------------------------------------------------
+void MainApp::keyPressed(int key){
+}
+
+//--------------------------------------------------------------
+void MainApp::keyReleased(int key){
+	//Set to fullscreen?
+	if(key == 'f'){
+		ofSetFullscreen(!ofGetWindowMode());
+	}
+}
+
+//--------------------------------------------------------------
+void MainApp::mouseMoved(int x, int y ){
 
 }
 
 //--------------------------------------------------------------
-void mainApp::keyReleased(int key){
+void MainApp::mouseDragged(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void mainApp::mouseMoved(int x, int y ){
+void MainApp::mousePressed(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void mainApp::mouseDragged(int x, int y, int button){
+void MainApp::mouseReleased(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void mainApp::mousePressed(int x, int y, int button){
+void MainApp::windowResized(int w, int h){
 
-}
-
-//--------------------------------------------------------------
-void mainApp::mouseReleased(int x, int y, int button){
-
-}
-
-//--------------------------------------------------------------
-void mainApp::windowResized(int w, int h){
-
+	//Canvas align
+	canvas.position.x = (w - canvas.width)/2;
+	canvas.position.y = (h - canvas.height)/2;
 }
 
