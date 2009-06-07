@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A56047440FDC620E00EA3762 /* ofFBOTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A560473E0FDC620E00EA3762 /* ofFBOTexture.cpp */; };
+		A56047450FDC620E00EA3762 /* ofTextureAdv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56047400FDC620E00EA3762 /* ofTextureAdv.cpp */; };
+		A56047460FDC620E00EA3762 /* renderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56047420FDC620E00EA3762 /* renderManager.cpp */; };
 		A5D85C900FD8C1F500DFE6AF /* libOpenCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D85C7E0FD8C1F500DFE6AF /* libOpenCV.a */; };
 		A5D85C910FD8C1F500DFE6AF /* ofxCvColorImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85C810FD8C1F500DFE6AF /* ofxCvColorImage.cpp */; };
 		A5D85C920FD8C1F500DFE6AF /* ofxCvContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85C840FD8C1F500DFE6AF /* ofxCvContourFinder.cpp */; };
@@ -65,6 +68,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A560473E0FDC620E00EA3762 /* ofFBOTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofFBOTexture.cpp; sourceTree = "<group>"; };
+		A560473F0FDC620E00EA3762 /* ofFBOTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofFBOTexture.h; sourceTree = "<group>"; };
+		A56047400FDC620E00EA3762 /* ofTextureAdv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofTextureAdv.cpp; sourceTree = "<group>"; };
+		A56047410FDC620E00EA3762 /* ofTextureAdv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofTextureAdv.h; sourceTree = "<group>"; };
+		A56047420FDC620E00EA3762 /* renderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderManager.cpp; sourceTree = "<group>"; };
+		A56047430FDC620E00EA3762 /* renderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderManager.h; sourceTree = "<group>"; };
 		A5D85C6D0FD8C1F500DFE6AF /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
 		A5D85C6E0FD8C1F500DFE6AF /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cv.hpp; sourceTree = "<group>"; };
 		A5D85C6F0FD8C1F500DFE6AF /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvaux.h; sourceTree = "<group>"; };
@@ -312,9 +321,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A560473D0FDC620E00EA3762 /* FBO */ = {
+			isa = PBXGroup;
+			children = (
+				A560473E0FDC620E00EA3762 /* ofFBOTexture.cpp */,
+				A560473F0FDC620E00EA3762 /* ofFBOTexture.h */,
+				A56047400FDC620E00EA3762 /* ofTextureAdv.cpp */,
+				A56047410FDC620E00EA3762 /* ofTextureAdv.h */,
+				A56047420FDC620E00EA3762 /* renderManager.cpp */,
+				A56047430FDC620E00EA3762 /* renderManager.h */,
+			);
+			name = FBO;
+			path = ../apps/28apps/28blobs/src/FBO;
+			sourceTree = "<group>";
+		};
 		A5D85C680FD8C1F500DFE6AF /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				A560473D0FDC620E00EA3762 /* FBO */,
 				A5D85CF80FDAE6F600DFE6AF /* ofxXmlSettings */,
 				A5D85C690FD8C1F500DFE6AF /* ofxOpenCv */,
 			);
@@ -1043,6 +1067,9 @@
 				A5D85D030FDAE6F600DFE6AF /* tinyxmlparser.cpp in Sources */,
 				A5D85D040FDAE6F600DFE6AF /* ofxXmlSettings.cpp in Sources */,
 				A5D85E880FDB018C00DFE6AF /* settings.cpp in Sources */,
+				A56047440FDC620E00EA3762 /* ofFBOTexture.cpp in Sources */,
+				A56047450FDC620E00EA3762 /* ofTextureAdv.cpp in Sources */,
+				A56047460FDC620E00EA3762 /* renderManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

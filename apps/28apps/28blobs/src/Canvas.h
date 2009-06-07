@@ -2,6 +2,7 @@
 #define _CANVAS
 
 #include "ofMain.h";
+#include "CameraView.h";
 #include "settings.h";
 
 class Canvas{
@@ -26,6 +27,9 @@ public:
 	
 	//Attributes
 	ofColor color;
+	
+	CameraView * cameras;
+	int camNumber;
 	
 };
 
