@@ -23,13 +23,15 @@ void Canvas::setup(){
 	camNumber = settings.getNumTags("camera");
 	cameras = new CameraView[camNumber];
 	
+	cout << "The canvas has " << camNumber << " cameras\n";
+	
 	//Setting up the cameras
 	for(int i=0; i < camNumber; ++i){
 		settings.pushTag("camera", i);
 		
 		cameras[i].setup(settings.getValue("width",320), settings.getValue("height",240), settings.getValue("device",i));
-		cameras[i].position.x = settings.getValue("x", 0);
-		cameras[i].position.y = settings.getValue("y", 0);
+		cameras[i].position.x = settings.getValue("x", i*50);
+		cameras[i].position.y = settings.getValue("y", i*50);
 		cameras[i].borderColor = camBorderColor;
 		
 		settings.popTag();
