@@ -11,6 +11,7 @@
 		A56047450FDC620E00EA3762 /* ofTextureAdv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56047400FDC620E00EA3762 /* ofTextureAdv.cpp */; };
 		A56047460FDC620E00EA3762 /* renderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56047420FDC620E00EA3762 /* renderManager.cpp */; };
 		A5604A220FDC9E7C00EA3762 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */; };
+		A5604B860FDCBAC200EA3762 /* 28 blobs.icns in Resources */ = {isa = PBXBuildFile; fileRef = A5604B850FDCBAC200EA3762 /* 28 blobs.icns */; };
 		A5D85C900FD8C1F500DFE6AF /* libOpenCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D85C7E0FD8C1F500DFE6AF /* libOpenCV.a */; };
 		A5D85C910FD8C1F500DFE6AF /* ofxCvColorImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85C810FD8C1F500DFE6AF /* ofxCvColorImage.cpp */; };
 		A5D85C920FD8C1F500DFE6AF /* ofxCvContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85C840FD8C1F500DFE6AF /* ofxCvContourFinder.cpp */; };
@@ -65,7 +66,6 @@
 		E45BEEA40E8CC911009D7055 /* libPocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BEE7A0E8CC911009D7055 /* libPocoXML.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* MainApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */; };
-		E4B6FCAE0C3E899E008CF71C /* openFrameworks-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +77,7 @@
 		A56047430FDC620E00EA3762 /* renderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderManager.h; sourceTree = "<group>"; };
 		A5604A200FDC9DF200EA3762 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		A5604A210FDC9E7C00EA3762 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		A5604B850FDCBAC200EA3762 /* 28 blobs.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "28 blobs.icns"; path = "Interface/28 blobs.icns"; sourceTree = "<group>"; };
 		A5D85C6D0FD8C1F500DFE6AF /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
 		A5D85C6E0FD8C1F500DFE6AF /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cv.hpp; sourceTree = "<group>"; };
 		A5D85C6F0FD8C1F500DFE6AF /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvaux.h; sourceTree = "<group>"; };
@@ -943,6 +944,7 @@
 			children = (
 				E4B69B5B0A3A1756003C02F2 /* 28blobs.Debug.app */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				A5604B850FDCBAC200EA3762 /* 28 blobs.icns */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				A5D85C680FD8C1F500DFE6AF /* addons */,
 				E44664170F5B1CFD005D0BF0 /* openFrameworks */,
@@ -1012,7 +1014,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B6FCAE0C3E899E008CF71C /* openFrameworks-Info.plist in Resources */,
+				A5604B860FDCBAC200EA3762 /* 28 blobs.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
