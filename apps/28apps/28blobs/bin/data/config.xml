@@ -5,6 +5,7 @@
 	</canvas>
 	<cameras>
 		<camera>
+			<device>0</device>
 			<width>320</width>
 			<height>240</height>
 		</camera>
@@ -14,7 +15,11 @@
 	<application>
 		<canvasColor>
 			<r>100</r><g>0</g><b>130</b>
-			
 		</canvasColor>
+		<camera>
+			<borderColor>
+				<r>255</r><g>255</g><b>0</b>
+			</borderColor>
+		</camera>
 	</application>
 </teBlobs>

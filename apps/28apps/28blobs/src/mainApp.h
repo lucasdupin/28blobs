@@ -6,6 +6,8 @@
 #include "settings.h"
 #include "Canvas.h";
 
+//#include "renderManager.h";
+
 class MainApp : public ofBaseApp{
 
 	public:
@@ -22,6 +24,8 @@ class MainApp : public ofBaseApp{
 		void windowResized(int w, int h);
 
 		Canvas canvas;
+	
+//	renderManager rmTest;
 };
 
 #endif

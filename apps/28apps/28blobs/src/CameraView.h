@@ -8,7 +8,7 @@
 class CameraView{
 	
 public:
-	void virtual setup(int w, int h, ofVideoGrabber * camera);
+	void virtual setup(int w, int h, int cameraID);
 	void virtual update();
 	void virtual draw();
 	
@@ -27,8 +27,17 @@ public:
 	
 	//Image
 	ofTextureAdv theImage;
-	ofVideoGrabber * cameraReference;
+	ofVideoGrabber camera;
 	
+	//Distortion
+	ofPoint outputPositions[4];
+	ofPoint inputPositions[4];
+	
+	//Appearence
+	ofColor borderColor;
+	ofImage fourPointHandle;
+	ofImage cropHandle;
+	ofImage moveHandle;
 };
 
 #endif

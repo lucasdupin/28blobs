@@ -12,6 +12,8 @@ void MainApp::setup(){
 	canvas.setup();
 	
 	windowResized(ofGetWidth(), ofGetHeight());
+	
+//	rmTest.allocateForNScreens(1, 700, 500);
 }
 
 //--------------------------------------------------------------
@@ -26,6 +28,7 @@ void MainApp::draw(){
 
 //--------------------------------------------------------------
 void MainApp::keyPressed(int key){
+	canvas.keyPressed(key);
 }
 
 //--------------------------------------------------------------
@@ -34,26 +37,28 @@ void MainApp::keyReleased(int key){
 	if(key == 'f'){
 		ofSetFullscreen(!ofGetWindowMode());
 	}
+	
+	canvas.keyReleased(key);
 }
 
 //--------------------------------------------------------------
 void MainApp::mouseMoved(int x, int y ){
-
+	canvas.mouseMoved(x, y);
 }
 
 //--------------------------------------------------------------
 void MainApp::mouseDragged(int x, int y, int button){
-
+	canvas.mouseDragged(x, y, button);
 }
 
 //--------------------------------------------------------------
 void MainApp::mousePressed(int x, int y, int button){
-
+	canvas.mousePressed(x, y, button);
 }
 
 //--------------------------------------------------------------
 void MainApp::mouseReleased(int x, int y, int button){
-
+	canvas.mouseReleased(x, y, button);
 }
 
 //--------------------------------------------------------------
