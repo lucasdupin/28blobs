@@ -40,8 +40,10 @@ public:
 	ofImage cropHandle;
 	ofImage moveHandle;
 
-	//Objects wich controll the interaction
+	//Objects wich control the interaction
 	void* hitObject;
+	int outputId;
+	int inputId;
 	ofPoint moveOffset;
 };
 

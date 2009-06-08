@@ -202,24 +202,24 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>A5604A680FDCA20F00EA3762</string>
+				<string>A5604B130FDCB3C900EA3762</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>CameraView.cpp</string>
+				<string>renderManager.cpp</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>A5604A690FDCA20F00EA3762</string>
+						<string>A5604B140FDCB3C900EA3762</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>CameraView.cpp</string>
+						<string>renderManager.cpp</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A5604AA70FDCA7AD00EA3762</string>
+						<string>A5604B7F0FDCB9DD00EA3762</string>
 						<key>history</key>
 						<array>
-							<string>A5604A350FDCA14600EA3762</string>
+							<string>A5604AF80FDCB20900EA3762</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,7 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>84 151 1335 809 0 0 1680 1028 </string>
+				<string>130 109 1335 809 0 0 1680 1028 </string>
 			</dict>
 		</dict>
 	</array>
@@ -372,7 +372,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A5604AA60FDCA7AD00EA3762</string>
+										<string>A5604B7E0FDCB9DD00EA3762</string>
 										<key>history</key>
 										<array>
 											<string>A5CD859C0FD8B1D000962BAA</string>
@@ -385,23 +385,24 @@
 											<string>A56048CC0FDC739200EA3762</string>
 											<string>A56049180FDC792D00EA3762</string>
 											<string>A56049190FDC792D00EA3762</string>
-											<string>A56049BA0FDC90BB00EA3762</string>
-											<string>A56049BB0FDC90BB00EA3762</string>
 											<string>A5604A3E0FDCA20F00EA3762</string>
 											<string>A5604A3F0FDCA20F00EA3762</string>
 											<string>A5604A400FDCA20F00EA3762</string>
 											<string>A5604A410FDCA20F00EA3762</string>
 											<string>A5604A420FDCA20F00EA3762</string>
-											<string>A5604A430FDCA20F00EA3762</string>
 											<string>A5604A460FDCA20F00EA3762</string>
-											<string>A5604A470FDCA20F00EA3762</string>
-											<string>A5604A740FDCA30F00EA3762</string>
-											<string>A5604A750FDCA30F00EA3762</string>
-											<string>A5604A760FDCA30F00EA3762</string>
-											<string>A5604A8A0FDCA6A000EA3762</string>
 											<string>A5604A8B0FDCA6A000EA3762</string>
-											<string>A5604A8C0FDCA6A000EA3762</string>
-											<string>A5604A8D0FDCA6A000EA3762</string>
+											<string>A5604AAF0FDCAB4200EA3762</string>
+											<string>A5604B030FDCB3C900EA3762</string>
+											<string>A5604B040FDCB3C900EA3762</string>
+											<string>A5604B320FDCB5A900EA3762</string>
+											<string>A5604B330FDCB5A900EA3762</string>
+											<string>A5604B4D0FDCB7AB00EA3762</string>
+											<string>A5604B4F0FDCB7AB00EA3762</string>
+											<string>A5604B500FDCB7AB00EA3762</string>
+											<string>A5604B660FDCB91400EA3762</string>
+											<string>A5604B670FDCB91400EA3762</string>
+											<string>A5604B4E0FDCB7AB00EA3762</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -586,6 +587,38 @@
 											<string>A5604A8F0FDCA6A000EA3762</string>
 											<string>A5604A900FDCA6A000EA3762</string>
 											<string>A5604A910FDCA6A000EA3762</string>
+											<string>A5604AB10FDCAB4200EA3762</string>
+											<string>A5604AB20FDCAB4200EA3762</string>
+											<string>A5604AE20FDCB17900EA3762</string>
+											<string>A5604AE30FDCB17900EA3762</string>
+											<string>A5604AE40FDCB17900EA3762</string>
+											<string>A5604B070FDCB3C900EA3762</string>
+											<string>A5604B080FDCB3C900EA3762</string>
+											<string>A5604B090FDCB3C900EA3762</string>
+											<string>A5604B0A0FDCB3C900EA3762</string>
+											<string>A5604B0B0FDCB3C900EA3762</string>
+											<string>A5604B0C0FDCB3C900EA3762</string>
+											<string>A5604B0D0FDCB3C900EA3762</string>
+											<string>A5604B0E0FDCB3C900EA3762</string>
+											<string>A5604B0F0FDCB3C900EA3762</string>
+											<string>A5604B100FDCB3C900EA3762</string>
+											<string>A5604B110FDCB3C900EA3762</string>
+											<string>A5604B1C0FDCB44500EA3762</string>
+											<string>A5604B1D0FDCB44500EA3762</string>
+											<string>A5604B1E0FDCB44500EA3762</string>
+											<string>A5604B360FDCB5A900EA3762</string>
+											<string>A5604B370FDCB5A900EA3762</string>
+											<string>A5604B380FDCB5A900EA3762</string>
+											<string>A5604B390FDCB5A900EA3762</string>
+											<string>A5604B520FDCB7AB00EA3762</string>
+											<string>A5604B530FDCB7AB00EA3762</string>
+											<string>A5604B540FDCB7AB00EA3762</string>
+											<string>A5604B550FDCB7AB00EA3762</string>
+											<string>A5604B560FDCB7AB00EA3762</string>
+											<string>A5604B570FDCB7AB00EA3762</string>
+											<string>A5604B680FDCB91400EA3762</string>
+											<string>A5604B690FDCB91400EA3762</string>
+											<string>A5604B6A0FDCB91400EA3762</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -782,8 +815,8 @@
 		<string>A56048020FDC6C6F00EA3762</string>
 		<string>A56048030FDC6C6F00EA3762</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>A5604A680FDCA20F00EA3762</string>
 		<string>A5CD857E0FD8ACAA00962BAA</string>
+		<string>A5604B130FDCB3C900EA3762</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/Marteiro/Desktop/28blobs/apps/28apps/28blobs/openFrameworks.xcodeproj</string>
 	</array>
@@ -804,12 +837,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CameraView.cpp</string>
+								<string>CameraView.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -826,8 +861,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -878,7 +911,7 @@
 			<key>WindowToolGUID</key>
 			<string>A5CD857E0FD8ACAA00962BAA</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

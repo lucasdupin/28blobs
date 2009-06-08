@@ -17,19 +17,25 @@ void CameraView::setup(int w, int h, int cameraID){
 	//setting the input and output points (distorion)
 	//of the texture
 	outputPositions[0].set(0, 0, 0);//top left
-	outputPositions[1].set(0, height, 0);//bottom left
-	outputPositions[2].set(width, 0, 0);//top right
-	outputPositions[3].set(width, height, 0);
+	outputPositions[1].set(width, 0, 0);//bottom left
+	outputPositions[2].set(width, height, 0);//top right
+	outputPositions[3].set(0, height, 0);
 	
 	inputPositions[0].set(0, 0);
 	inputPositions[1].set(1, 0);
-	inputPositions[2].set(0, 1);
-	inputPositions[3].set(1, 1);
+	inputPositions[2].set(1, 1);
+	inputPositions[3].set(0, 1);
 	
 	//Setting up the interface
 	fourPointHandle.loadImage("4point.png");
 	cropHandle.loadImage("crop.png");
 	moveHandle.loadImage("move.png");
+	
+	cropHandle.setAnchorPercent(.5, .5);
+	fourPointHandle.setAnchorPercent(.5, .5);
+	
+	//No point selected
+	inputId = outputId = -1;
 }
 
 void CameraView::update(){
@@ -68,8 +74,7 @@ void CameraView::draw(){
 	ofBeginShape();
 	for(int i=0; i<4; i++)
 		ofVertex(outputPositions[i].x, outputPositions[i].y);
-	ofEndShape();
-	ofRect(0,0,width,height);
+	ofEndShape(true);
 	
 	/*
 	 Drawing handlers
@@ -77,29 +82,16 @@ void CameraView::draw(){
 	ofEnableAlphaBlending();
 	ofSetColor(255,255,255);
 	
-	//4 ponit
-	ofPushMatrix();
-	fourPointHandle.draw(0, 0);
-	ofTranslate(width, 0, 0); ofRotateZ(90);
-	fourPointHandle.draw(0, 0);
-	ofTranslate(height, 0, 0); ofRotateZ(90);
-	fourPointHandle.draw(0, 0);
-	ofTranslate(width, 0, 0); ofRotateZ(90);
-	fourPointHandle.draw(0, 0);
-	ofPopMatrix();
-	
-	
-	//crop
-	int crX = -cropHandle.width/2; int crY = -cropHandle.height/2;
-	ofPushMatrix();
-	cropHandle.draw(crX, crY);
-	ofTranslate(width, 0, 0); ofRotateZ(90);
-	cropHandle.draw(crX, crY);
-	ofTranslate(height, 0, 0); ofRotateZ(90);
-	cropHandle.draw(crX, crY);
-	ofTranslate(width, 0, 0); ofRotateZ(90);
-	cropHandle.draw(crX, crY);
-	ofPopMatrix();
+	//4 ponit, crop
+	for(int i=0; i<4; i++){
+		ofPushMatrix();
+		ofTranslate(outputPositions[i].x, outputPositions[i].y, 0);
+		ofRotateZ(-90*i);
+		fourPointHandle.draw(0, 0);
+		ofRotateZ(90*i);
+		cropHandle.draw(0, 0);
+		ofPopMatrix();
+	}
 
 	//Move
 	moveHandle.draw(width/2 - moveHandle.width/2, height/2 - moveHandle.height/2);
@@ -116,11 +108,22 @@ void CameraView::mouseMoved(int x, int y ){
 
 //--------------------------------------------------------------
 void CameraView::mouseDragged(int x, int y, int button){
-	//Are we dragging something?
+	x-= position.x;
+	y-= position.y;
+	
+	//Are we dragging an object?
 	if(hitObject == &moveHandle){
 		cout << "updating position\n";
-		position.x = x - moveOffset.x;
-		position.y = y - moveOffset.y;
+		position.x = x - moveOffset.x + position.x;
+		position.y = y - moveOffset.y + position.y;
+		
+	//Or a handle?
+	} else if (outputId >= 0) {
+		outputPositions[outputId].x = x;
+		outputPositions[outputId].y = y;
+	} else if (inputId >= 0) {
+		inputPositions[inputId].x = x;
+		inputPositions[inputId].y = y;
 	}
 }
 
@@ -132,13 +135,23 @@ void CameraView::mousePressed(int x, int y, int button){
 	//hit the move handle
 	if(hitRect(x, y, width/2 - moveHandle.width/2, height/2 - moveHandle.height/2, moveHandle.width, moveHandle.height)){
 		hitObject = &moveHandle;
-		moveOffset.x = x;
-		moveOffset.y = y;
+	//any of the 4point handlers?
+	} else {
+		for(int i=0; i<4; i++){
+			if(hitRect(x, y, outputPositions[i].x-fourPointHandle.width/2, outputPositions[i].y-fourPointHandle.height/2, fourPointHandle.width, fourPointHandle.height)){
+				outputId = i;
+			}
+		}		
 	}
+	
+	moveOffset.x = x;
+	moveOffset.y = y;
 }
 
 //--------------------------------------------------------------
 void CameraView::mouseReleased(int x, int y, int button){
 	//Not dragging anything
 	hitObject = nil;
+	outputId = -1;
+	inputId = -1;
 }
