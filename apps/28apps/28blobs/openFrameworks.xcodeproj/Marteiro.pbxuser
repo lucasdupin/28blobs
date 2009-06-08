@@ -169,7 +169,7 @@
 		isa = PBXTextBookmark;
 		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
 		name = "Canvas.h: 1";
-		rLen = 576;
+		rLen = 575;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 545;
@@ -180,7 +180,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 23";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 544;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -189,7 +189,7 @@
 		isa = PBXTextBookmark;
 		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
 		name = "Canvas.h: 1";
-		rLen = 576;
+		rLen = 575;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 545;
@@ -290,7 +290,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 23";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 544;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -400,7 +400,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 23";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 544;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -521,7 +521,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 26;
-		rLoc = 163;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 636;
 		vrLoc = 0;
@@ -531,7 +531,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 12";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 115;
 		vrLoc = 0;
@@ -551,7 +551,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 23";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 544;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -571,7 +571,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 23";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 544;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -651,7 +651,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 23";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 544;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -661,7 +661,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 12";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 115;
 		vrLoc = 0;
@@ -691,7 +691,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 26;
-		rLoc = 163;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 636;
 		vrLoc = 0;
@@ -747,7 +747,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 26";
 		rLen = 0;
-		rLoc = 567;
+		rLoc = 586;
 		rType = 0;
 		vrLen = 655;
 		vrLoc = 0;
@@ -757,7 +757,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 21";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 445;
 		vrLoc = 0;
@@ -804,7 +804,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 26";
 		rLen = 0;
-		rLoc = 567;
+		rLoc = 586;
 		rType = 0;
 		vrLen = 655;
 		vrLoc = 0;
@@ -834,7 +834,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 26";
 		rLen = 0;
-		rLoc = 567;
+		rLoc = 586;
 		rType = 0;
 		vrLen = 655;
 		vrLoc = 0;
@@ -844,7 +844,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 21";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 445;
 		vrLoc = 0;
@@ -864,7 +864,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 21";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 445;
 		vrLoc = 0;
@@ -1098,7 +1098,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 26";
 		rLen = 0;
-		rLoc = 567;
+		rLoc = 586;
 		rType = 0;
 		vrLen = 655;
 		vrLoc = 0;
@@ -1158,7 +1158,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 26";
 		rLen = 0;
-		rLoc = 567;
+		rLoc = 586;
 		rType = 0;
 		vrLen = 655;
 		vrLoc = 0;
@@ -1220,7 +1220,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 21";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 444;
 		vrLoc = 0;
@@ -1290,7 +1290,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 26";
 		rLen = 0;
-		rLoc = 567;
+		rLoc = 586;
 		rType = 0;
 		vrLen = 661;
 		vrLoc = 0;
@@ -1370,7 +1370,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 26";
 		rLen = 0;
-		rLoc = 567;
+		rLoc = 586;
 		rType = 0;
 		vrLen = 661;
 		vrLoc = 0;
@@ -1390,7 +1390,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 0;
-		rLoc = 163;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 0;
@@ -1400,7 +1400,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 0;
-		rLoc = 163;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 0;
@@ -1460,7 +1460,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 0;
-		rLoc = 163;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 0;
@@ -1620,7 +1620,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 0;
-		rLoc = 163;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 0;
@@ -1640,7 +1640,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 0;
-		rLoc = 163;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 0;
@@ -1688,7 +1688,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 0;
-		rLoc = 189;
+		rLoc = 208;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 0;
@@ -1716,7 +1716,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 0;
-		rLoc = 163;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 0;
@@ -1746,7 +1746,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 0;
-		rLoc = 163;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 0;
@@ -1766,7 +1766,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 30";
 		rLen = 0;
-		rLoc = 625;
+		rLoc = 644;
 		rType = 0;
 		vrLen = 636;
 		vrLoc = 0;
@@ -1806,7 +1806,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 30";
 		rLen = 0;
-		rLoc = 625;
+		rLoc = 644;
 		rType = 0;
 		vrLen = 636;
 		vrLoc = 0;
@@ -1826,7 +1826,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 11";
 		rLen = 0;
-		rLoc = 189;
+		rLoc = 208;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 0;
@@ -1976,7 +1976,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 26";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 544;
 		vrLoc = 0;
@@ -1986,7 +1986,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 25";
 		rLen = 0;
-		rLoc = 1448;
+		rLoc = 1515;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 0;
@@ -1996,7 +1996,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 28";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 575;
 		vrLoc = 0;
@@ -2026,7 +2026,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 36";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -2036,7 +2036,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 28";
 		rLen = 13;
-		rLoc = 1517;
+		rLoc = 1584;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 0;
@@ -2046,7 +2046,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 28";
 		rLen = 13;
-		rLoc = 1517;
+		rLoc = 1584;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 0;
@@ -2076,7 +2076,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 36";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -2086,7 +2086,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 28";
 		rLen = 0;
-		rLoc = 1687;
+		rLoc = 1754;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 0;
@@ -2096,7 +2096,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 25";
 		rLen = 0;
-		rLoc = 1444;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 0;
@@ -2116,7 +2116,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 36";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -2156,7 +2156,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 36";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -2236,7 +2236,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 36";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -2286,7 +2286,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 36";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -2306,7 +2306,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 36";
 		rLen = 0;
-		rLoc = 806;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 0;
@@ -2316,7 +2316,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 27";
 		rLen = 0;
-		rLoc = 1482;
+		rLoc = 1549;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 0;
@@ -2846,7 +2846,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 33";
 		rLen = 0;
-		rLoc = 1482;
+		rLoc = 1549;
 		rType = 0;
 		vrLen = 804;
 		vrLoc = 0;
@@ -2856,7 +2856,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 32";
 		rLen = 0;
-		rLoc = 1444;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 806;
 		vrLoc = 0;
@@ -2866,7 +2866,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 33";
 		rLen = 0;
-		rLoc = 1478;
+		rLoc = 1545;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 0;
@@ -2876,7 +2876,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 31";
 		rLen = 0;
-		rLoc = 1444;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -2906,7 +2906,7 @@
 		comments = "error: 'class ofTextureAdv' has no member named 'ofRect'";
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		rLen = 1;
-		rLoc = 69;
+		rLoc = 71;
 		rType = 1;
 	};
 	A56049160FDC791A00EA3762 /* PBXTextBookmark */ = {
@@ -2923,8 +2923,8 @@
 		isa = PBXTextBookmark;
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 58";
-		rLen = 865;
-		rLoc = 1688;
+		rLen = 882;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 232;
 		vrLoc = 1072;
@@ -2974,7 +2974,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 33";
 		rLen = 0;
-		rLoc = 670;
+		rLoc = 689;
 		rType = 0;
 		vrLen = 823;
 		vrLoc = 0;
@@ -2984,7 +2984,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 38";
 		rLen = 0;
-		rLoc = 1562;
+		rLoc = 1629;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 0;
@@ -3044,7 +3044,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 38";
 		rLen = 0;
-		rLoc = 1562;
+		rLoc = 1629;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 0;
@@ -3054,7 +3054,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 33";
 		rLen = 0;
-		rLoc = 670;
+		rLoc = 689;
 		rType = 0;
 		vrLen = 823;
 		vrLoc = 0;
@@ -3074,7 +3074,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 33";
 		rLen = 0;
-		rLoc = 670;
+		rLoc = 689;
 		rType = 0;
 		vrLen = 823;
 		vrLoc = 0;
@@ -3084,7 +3084,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 53";
 		rLen = 0;
-		rLoc = 1450;
+		rLoc = 1517;
 		rType = 0;
 		vrLen = 1107;
 		vrLoc = 197;
@@ -3094,7 +3094,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 53";
 		rLen = 0;
-		rLoc = 1424;
+		rLoc = 1491;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 195;
@@ -3114,7 +3114,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 54";
 		rLen = 0;
-		rLoc = 1448;
+		rLoc = 1515;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 195;
@@ -3134,7 +3134,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 54";
 		rLen = 0;
-		rLoc = 1444;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 1142;
 		vrLoc = 195;
@@ -3154,7 +3154,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 54";
 		rLen = 0;
-		rLoc = 1424;
+		rLoc = 1491;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 197;
@@ -3474,7 +3474,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 33";
 		rLen = 0;
-		rLoc = 670;
+		rLoc = 689;
 		rType = 0;
 		vrLen = 823;
 		vrLoc = 0;
@@ -3494,7 +3494,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 40";
 		rLen = 7;
-		rLoc = 787;
+		rLoc = 806;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 0;
@@ -3514,7 +3514,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 32";
 		rLen = 0;
-		rLoc = 642;
+		rLoc = 661;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 0;
@@ -3534,7 +3534,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 32";
 		rLen = 0;
-		rLoc = 642;
+		rLoc = 661;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 0;
@@ -3574,7 +3574,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 32";
 		rLen = 0;
-		rLoc = 642;
+		rLoc = 661;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 0;
@@ -3594,7 +3594,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 67";
 		rLen = 0;
-		rLoc = 1605;
+		rLoc = 1672;
 		rType = 0;
 		vrLen = 1253;
 		vrLoc = 426;
@@ -3604,7 +3604,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 68";
 		rLen = 0;
-		rLoc = 1671;
+		rLoc = 1738;
 		rType = 0;
 		vrLen = 1218;
 		vrLoc = 470;
@@ -3624,7 +3624,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 75";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2136;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 706;
@@ -3634,7 +3634,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 78";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 452;
 		vrLoc = 426;
@@ -3658,7 +3658,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 78";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2636;
 		rType = 0;
 		vrLen = 452;
 		vrLoc = 426;
@@ -3689,7 +3689,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 75";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2136;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 736;
@@ -3699,7 +3699,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 75";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2136;
 		rType = 0;
 		vrLen = 1092;
 		vrLoc = 736;
@@ -3709,7 +3709,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 79";
 		rLen = 0;
-		rLoc = 2084;
+		rLoc = 2151;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 808;
@@ -3719,7 +3719,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 76";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2136;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 738;
@@ -3729,7 +3729,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 76";
 		rLen = 0;
-		rLoc = 2069;
+		rLoc = 2136;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 738;
@@ -3739,7 +3739,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 79";
 		rLen = 0;
-		rLoc = 2023;
+		rLoc = 2090;
 		rType = 0;
 		vrLen = 1201;
 		vrLoc = 808;
@@ -3749,7 +3749,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 79";
 		rLen = 0;
-		rLoc = 2040;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1201;
 		vrLoc = 808;
@@ -3779,7 +3779,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 79";
 		rLen = 0;
-		rLoc = 2040;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 766;
@@ -3789,7 +3789,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 79";
 		rLen = 0;
-		rLoc = 2040;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 808;
@@ -3819,7 +3819,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 74";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1877;
 		rType = 0;
 		vrLen = 1230;
 		vrLoc = 908;
@@ -3829,7 +3829,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 76";
 		rLen = 0;
-		rLoc = 1810;
+		rLoc = 1877;
 		rType = 0;
 		vrLen = 1244;
 		vrLoc = 908;
@@ -3839,7 +3839,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 83";
 		rLen = 0;
-		rLoc = 2525;
+		rLoc = 2591;
 		rType = 0;
 		vrLen = 1168;
 		vrLoc = 843;
@@ -3849,7 +3849,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 74";
 		rLen = 0;
-		rLoc = 1849;
+		rLoc = 1916;
 		rType = 0;
 		vrLen = 1189;
 		vrLoc = 843;
@@ -3859,7 +3859,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 74";
 		rLen = 0;
-		rLoc = 1853;
+		rLoc = 1920;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 843;
@@ -3869,7 +3869,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 82";
 		rLen = 0;
-		rLoc = 2067;
+		rLoc = 2134;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 908;
@@ -3879,7 +3879,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 92";
 		rLen = 0;
-		rLoc = 2204;
+		rLoc = 2271;
 		rType = 0;
 		vrLen = 1215;
 		vrLoc = 1260;
@@ -3889,7 +3889,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 75";
 		rLen = 0;
-		rLoc = 1796;
+		rLoc = 1863;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 1260;
@@ -3899,7 +3899,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 103";
 		rLen = 0;
-		rLoc = 2532;
+		rLoc = 2598;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 1296;
@@ -3909,7 +3909,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 78";
 		rLen = 0;
-		rLoc = 1809;
+		rLoc = 1876;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 1293;
@@ -3919,7 +3919,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 103";
 		rLen = 0;
-		rLoc = 2523;
+		rLoc = 2589;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 1293;
@@ -3929,7 +3929,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 32";
 		rLen = 0;
-		rLoc = 642;
+		rLoc = 661;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 0;
@@ -3949,7 +3949,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 103";
 		rLen = 0;
-		rLoc = 2523;
+		rLoc = 2589;
 		rType = 0;
 		vrLen = 1231;
 		vrLoc = 1293;
@@ -3979,7 +3979,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 103";
 		rLen = 0;
-		rLoc = 2523;
+		rLoc = 2589;
 		rType = 0;
 		vrLen = 1231;
 		vrLoc = 1293;
@@ -3989,7 +3989,7 @@
 		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
 		name = "CameraView.h: 32";
 		rLen = 0;
-		rLoc = 642;
+		rLoc = 661;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 0;
@@ -4029,7 +4029,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 103";
 		rLen = 0;
-		rLoc = 2523;
+		rLoc = 2589;
 		rType = 0;
 		vrLen = 1231;
 		vrLoc = 1293;
@@ -4049,10 +4049,1262 @@
 		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
 		name = "Canvas.cpp: 83";
 		rLen = 0;
-		rLoc = 2240;
+		rLoc = 2939;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 1246;
+	};
+	A56049EE0FDC991900EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 85";
+		rLen = 0;
+		rLoc = 3335;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 1285;
+	};
+	A56049EF0FDC991900EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
+		name = "Canvas.h: 20";
+		rLen = 0;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	A56049F00FDC991900EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 85";
+		rLen = 0;
+		rLoc = 3335;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 1285;
+	};
+	A56049F10FDC991900EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
+		name = "Canvas.h: 33";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 593;
+		vrLoc = 0;
+	};
+	A56049F40FDC9AB500EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 105";
+		rLen = 0;
+		rLoc = 2636;
+		rType = 0;
+		vrLen = 452;
+		vrLoc = 426;
+	};
+	A56049F50FDC9AB500EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: 'class CameraView' has no member named 'x'";
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		rLen = 1;
+		rLoc = 112;
+		rType = 1;
+	};
+	A56049F60FDC9AB500EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 105";
+		rLen = 0;
+		rLoc = 2636;
+		rType = 0;
+		vrLen = 452;
+		vrLoc = 426;
+	};
+	A56049F70FDC9AB500EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 89";
+		rLen = 82;
+		rLoc = 3076;
+		rType = 0;
+		vrLen = 236;
+		vrLoc = 2316;
+	};
+	A56049FB0FDC9AE200EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 89";
+		rLen = 0;
+		rLoc = 3104;
+		rType = 0;
+		vrLen = 397;
+		vrLoc = 2316;
+	};
+	A5604A020FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 32";
+		rLen = 0;
+		rLoc = 661;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 0;
+	};
+	A5604A030FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
+		name = "Canvas.h: 33";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 0;
+	};
+	A5604A040FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */;
+		name = "MainApp.cpp: 29";
+		rLen = 950;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 1294;
+		vrLoc = 444;
+	};
+	A5604A050FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 83";
+		rLen = 0;
+		rLoc = 2327;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 1605;
+	};
+	A5604A060FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 103";
+		rLen = 0;
+		rLoc = 2589;
+		rType = 0;
+		vrLen = 1231;
+		vrLoc = 1293;
+	};
+	A5604A070FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
+		name = "Canvas.h: 33";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 0;
+	};
+	A5604A080FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 93";
+		rLen = 0;
+		rLoc = 3334;
+		rType = 0;
+		vrLen = 1225;
+		vrLoc = 1327;
+	};
+	A5604A090FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */;
+		name = "MainApp.cpp: 46";
+		rLen = 0;
+		rLoc = 1041;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 261;
+	};
+	A5604A0A0FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 90";
+		rLen = 0;
+		rLoc = 3186;
+		rType = 0;
+		vrLen = 1191;
+		vrLoc = 1522;
+	};
+	A5604A0B0FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */;
+		name = "MainApp.cpp: 46";
+		rLen = 0;
+		rLoc = 1041;
+		rType = 0;
+		vrLen = 1370;
+		vrLoc = 261;
+	};
+	A5604A0C0FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 32";
+		rLen = 0;
+		rLoc = 661;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 0;
+	};
+	A5604A0D0FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 103";
+		rLen = 0;
+		rLoc = 2589;
+		rType = 0;
+		vrLen = 1231;
+		vrLoc = 1293;
+	};
+	A5604A0E0FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
+		name = "Canvas.h: 33";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 0;
+	};
+	A5604A0F0FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 83";
+		rLen = 0;
+		rLoc = 2327;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 1605;
+	};
+	A5604A100FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */;
+		name = "MainApp.cpp: 29";
+		rLen = 950;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 1294;
+		vrLoc = 444;
+	};
+	A5604A110FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 83";
+		rLen = 0;
+		rLoc = 2327;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 1605;
+	};
+	A5604A120FDC9BAE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 126";
+		rLen = 0;
+		rLoc = 3580;
+		rType = 0;
+		vrLen = 1300;
+		vrLoc = 1745;
+	};
+	A5604A130FDC9BDA00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 113";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 1326;
+		vrLoc = 1745;
+	};
+	A5604A150FDC9BDF00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: 'button' was not declared in this scope";
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		rLen = 1;
+		rLoc = 82;
+		rType = 1;
+	};
+	A5604A160FDC9BDF00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 83";
+		rLen = 0;
+		rLoc = 2327;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 2217;
+	};
+	A5604A190FDC9BEF00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 111";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 1262;
+		vrLoc = 1745;
+	};
+	A5604A1A0FDC9C0A00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 83";
+		rLen = 0;
+		rLoc = 2327;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 2217;
+	};
+	A5604A200FDC9DF200EA3762 /* utils.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 186}}";
+			sepNavSelRange = "{57, 0}";
+			sepNavVisRange = "{0, 175}";
+		};
+	};
+	A5604A210FDC9E7C00EA3762 /* utils.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 718}}";
+			sepNavSelRange = "{152, 0}";
+			sepNavVisRange = "{0, 290}";
+		};
+	};
+	A5604A2D0FDCA06F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 83";
+		rLen = 0;
+		rLoc = 2327;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 2217;
+	};
+	A5604A2E0FDCA06F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 113";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 2555;
+	};
+	A5604A2F0FDCA06F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: virtual outside class declaration";
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		rLen = 1;
+		rLoc = 4;
+		rType = 1;
+	};
+	A5604A300FDCA06F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 83";
+		rLen = 0;
+		rLoc = 2327;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 2217;
+	};
+	A5604A310FDCA06F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 113";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 2555;
+	};
+	A5604A320FDCA06F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		name = "utils.h: 5";
+		rLen = 51;
+		rLoc = 57;
+		rType = 0;
+		vrLen = 191;
+		vrLoc = 0;
+	};
+	A5604A350FDCA14600EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: 'cameras' was not declared in this scope";
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		rLen = 0;
+		rLoc = 113;
+		rType = 1;
+	};
+	A5604A3C0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
+		name = "Canvas.h: 33";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 0;
+	};
+	A5604A3D0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 81";
+		rLen = 244;
+		rLoc = 2137;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 1605;
+	};
+	A5604A3E0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E446643E0F5B1CFD005D0BF0 /* ofTypes.h */;
+		name = "ofTypes.h: 9";
+		rLen = 16;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	A5604A3F0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85E500FDAFE8400DFE6AF /* settings.h */;
+		name = "settings.h: 5";
+		rLen = 0;
+		rLoc = 74;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	A5604A400FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E446643F0F5B1CFD005D0BF0 /* ofUtils.cpp */;
+		name = "ofUtils.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1417;
+		vrLoc = 0;
+	};
+	A5604A410FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E44664400F5B1CFD005D0BF0 /* ofUtils.h */;
+		name = "ofUtils.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1317;
+		vrLoc = 34;
+	};
+	A5604A420FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E446643D0F5B1CFD005D0BF0 /* ofMath.h */;
+		name = "ofMath.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	A5604A430FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */;
+		name = "main.cpp: 6";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 0;
+	};
+	A5604A440FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */;
+		name = "MainApp.cpp: 29";
+		rLen = 950;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 355;
+	};
+	A5604A450FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 7";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 0;
+	};
+	A5604A460FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		name = "utils.h: 6";
+		rLen = 44;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 175;
+		vrLoc = 0;
+	};
+	A5604A470FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85E870FDB018C00DFE6AF /* settings.cpp */;
+		name = "settings.cpp: 3";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 47;
+		vrLoc = 0;
+	};
+	A5604A480FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */;
+		name = "utils.cpp: 4";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	A5604A490FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: 'cameras' was not declared in this scope";
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		rLen = 0;
+		rLoc = 113;
+		rType = 1;
+	};
+	A5604A4A0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 122";
+		rLen = 0;
+		rLoc = 3409;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 1797;
+	};
+	A5604A4B0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
+		name = "Canvas.h: 33";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 0;
+	};
+	A5604A4C0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 81";
+		rLen = 244;
+		rLoc = 2137;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 1605;
+	};
+	A5604A4D0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85E500FDAFE8400DFE6AF /* settings.h */;
+		name = "settings.h: 5";
+		rLen = 0;
+		rLoc = 74;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	A5604A4E0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 101";
+		rLen = 7;
+		rLoc = 2502;
+		rType = 0;
+		vrLen = 1316;
+		vrLoc = 1771;
+	};
+	A5604A4F0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E446643E0F5B1CFD005D0BF0 /* ofTypes.h */;
+		name = "ofTypes.h: 9";
+		rLen = 16;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	A5604A500FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 117";
+		rLen = 0;
+		rLoc = 3038;
+		rType = 0;
+		vrLen = 1282;
+		vrLoc = 1797;
+	};
+	A5604A510FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85E500FDAFE8400DFE6AF /* settings.h */;
+		name = "settings.h: 5";
+		rLen = 0;
+		rLoc = 74;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	A5604A520FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E446643F0F5B1CFD005D0BF0 /* ofUtils.cpp */;
+		name = "ofUtils.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1417;
+		vrLoc = 0;
+	};
+	A5604A530FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E44664400F5B1CFD005D0BF0 /* ofUtils.h */;
+		name = "ofUtils.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1317;
+		vrLoc = 34;
+	};
+	A5604A540FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E446643D0F5B1CFD005D0BF0 /* ofMath.h */;
+		name = "ofMath.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	A5604A550FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 117";
+		rLen = 0;
+		rLoc = 3038;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 1771;
+	};
+	A5604A560FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */;
+		name = "main.cpp: 6";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 0;
+	};
+	A5604A570FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 111";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 1395;
+		vrLoc = 1797;
+	};
+	A5604A580FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		name = "utils.h: 3";
+		rLen = 50;
+		rLoc = 57;
+		rType = 0;
+		vrLen = 71;
+		vrLoc = 0;
+	};
+	A5604A590FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */;
+		name = "utils.cpp: 2";
+		rLen = 0;
+		rLoc = 81;
+		rType = 0;
+		vrLen = 61;
+		vrLoc = 0;
+	};
+	A5604A5A0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 113";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 1395;
+		vrLoc = 1797;
+	};
+	A5604A5B0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */;
+		name = "main.cpp: 6";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 0;
+	};
+	A5604A5C0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */;
+		name = "MainApp.cpp: 29";
+		rLen = 950;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 355;
+	};
+	A5604A5D0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */;
+		name = "utils.cpp: 1";
+		rLen = 0;
+		rLoc = 19;
+		rType = 0;
+		vrLen = 206;
+		vrLoc = 0;
+	};
+	A5604A5E0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		name = "utils.h: 7";
+		rLen = 0;
+		rLoc = 175;
+		rType = 0;
+		vrLen = 115;
+		vrLoc = 0;
+	};
+	A5604A5F0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 7";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 0;
+	};
+	A5604A600FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		name = "utils.h: 5";
+		rLen = 0;
+		rLoc = 57;
+		rType = 0;
+		vrLen = 191;
+		vrLoc = 0;
+	};
+	A5604A610FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */;
+		name = "utils.cpp: 1";
+		rLen = 0;
+		rLoc = 19;
+		rType = 0;
+		vrLen = 206;
+		vrLoc = 0;
+	};
+	A5604A620FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		name = "utils.h: 5";
+		rLen = 0;
+		rLoc = 57;
+		rType = 0;
+		vrLen = 175;
+		vrLoc = 0;
+	};
+	A5604A630FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */;
+		name = "utils.cpp: 10";
+		rLen = 0;
+		rLoc = 81;
+		rType = 0;
+		vrLen = 394;
+		vrLoc = 0;
+	};
+	A5604A640FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		name = "utils.h: 6";
+		rLen = 44;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 175;
+		vrLoc = 0;
+	};
+	A5604A650FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85E870FDB018C00DFE6AF /* settings.cpp */;
+		name = "settings.cpp: 3";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 47;
+		vrLoc = 0;
+	};
+	A5604A660FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */;
+		name = "utils.cpp: 4";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	A5604A670FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 115";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 1369;
+		vrLoc = 1827;
+	};
+	A5604A6A0FDCA20F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 115";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 1386;
+		vrLoc = 1810;
+	};
+	A5604A6C0FDCA25600EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		name = "utils.h: 5";
+		rLen = 0;
+		rLoc = 57;
+		rType = 0;
+		vrLen = 175;
+		vrLoc = 0;
+	};
+	A5604A6D0FDCA25600EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: 'cameras' was not declared in this scope";
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		rLen = 0;
+		rLoc = 113;
+		rType = 1;
+	};
+	A5604A6E0FDCA25600EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A200FDC9DF200EA3762 /* utils.h */;
+		name = "utils.h: 5";
+		rLen = 0;
+		rLoc = 57;
+		rType = 0;
+		vrLen = 175;
+		vrLoc = 0;
+	};
+	A5604A6F0FDCA25600EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 110";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 394;
+		vrLoc = 2555;
+	};
+	A5604A740FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */;
+		name = "utils.cpp: 4";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	A5604A750FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 81";
+		rLen = 244;
+		rLoc = 2137;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 1605;
+	};
+	A5604A760FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
+		name = "Canvas.h: 33";
+		rLen = 0;
+		rLoc = 565;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 0;
+	};
+	A5604A770FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 43";
+		rLen = 0;
+		rLoc = 867;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 0;
+	};
+	A5604A780FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 110";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 1360;
+		vrLoc = 1745;
+	};
+	A5604A790FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 110";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 1360;
+		vrLoc = 1745;
+	};
+	A5604A7A0FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */;
+		name = "utils.cpp: 4";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	A5604A7B0FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 110";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 1360;
+		vrLoc = 1745;
+	};
+	A5604A7C0FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 7";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 0;
+	};
+	A5604A7D0FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */;
+		name = "Canvas.cpp: 81";
+		rLen = 244;
+		rLoc = 2137;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 1605;
+	};
+	A5604A7E0FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */;
+		name = "Canvas.h: 33";
+		rLen = 0;
+		rLoc = 565;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 0;
+	};
+	A5604A7F0FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 43";
+		rLen = 0;
+		rLoc = 867;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 0;
+	};
+	A5604A800FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 116";
+		rLen = 0;
+		rLoc = 2923;
+		rType = 0;
+		vrLen = 1365;
+		vrLoc = 1856;
+	};
+	A5604A810FDCA30F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 128";
+		rLen = 0;
+		rLoc = 3365;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 1810;
+	};
+	A5604A820FDCA31F00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 110";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 2555;
+	};
+	A5604A850FDCA37200EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 117";
+		rLen = 0;
+		rLoc = 2972;
+		rType = 0;
+		vrLen = 1407;
+		vrLoc = 1970;
+	};
+	A5604A860FDCA37200EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 128";
+		rLen = 0;
+		rLoc = 3365;
+		rType = 0;
+		vrLen = 1418;
+		vrLoc = 1810;
+	};
+	A5604A870FDCA48600EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 110";
+		rLen = 0;
+		rLoc = 2750;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 2555;
+	};
+	A5604A8A0FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */;
+		name = "MainApp.cpp: 29";
+		rLen = 950;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 1382;
+		vrLoc = 355;
+	};
+	A5604A8B0FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* MainApp.h */;
+		name = "MainApp.h: 28";
+		rLen = 23;
+		rLoc = 548;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 0;
+	};
+	A5604A8C0FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 45";
+		rLen = 0;
+		rLoc = 906;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 0;
+	};
+	A5604A8D0FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 117";
+		rLen = 0;
+		rLoc = 2972;
+		rType = 0;
+		vrLen = 1425;
+		vrLoc = 1970;
+	};
+	A5604A8E0FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 117";
+		rLen = 0;
+		rLoc = 2972;
+		rType = 0;
+		vrLen = 1425;
+		vrLoc = 1970;
+	};
+	A5604A8F0FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */;
+		name = "MainApp.cpp: 29";
+		rLen = 950;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 1382;
+		vrLoc = 355;
+	};
+	A5604A900FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* MainApp.h */;
+		name = "MainApp.h: 28";
+		rLen = 23;
+		rLoc = 548;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 0;
+	};
+	A5604A910FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 45";
+		rLen = 0;
+		rLoc = 906;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 0;
+	};
+	A5604A920FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 118";
+		rLen = 0;
+		rLoc = 3035;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 1999;
+	};
+	A5604A930FDCA6A000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 129";
+		rLen = 0;
+		rLoc = 3365;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 1810;
+	};
+	A5604A960FDCA6C000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 117";
+		rLen = 0;
+		rLoc = 2969;
+		rType = 0;
+		vrLen = 1328;
+		vrLoc = 1999;
+	};
+	A5604A970FDCA6C000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 130";
+		rLen = 0;
+		rLoc = 3365;
+		rType = 0;
+		vrLen = 1472;
+		vrLoc = 1810;
+	};
+	A5604A9A0FDCA6DE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 121";
+		rLen = 0;
+		rLoc = 3040;
+		rType = 0;
+		vrLen = 1396;
+		vrLoc = 2086;
+	};
+	A5604A9B0FDCA6DE00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 130";
+		rLen = 0;
+		rLoc = 3365;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 1810;
+	};
+	A5604A9E0FDCA76000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 109";
+		rLen = 0;
+		rLoc = 2636;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 1812;
+	};
+	A5604A9F0FDCA76000EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 134";
+		rLen = 0;
+		rLoc = 3365;
+		rType = 0;
+		vrLen = 1265;
+		vrLoc = 1440;
+	};
+	A5604AA20FDCA79E00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 123";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 1414;
+		vrLoc = 2165;
+	};
+	A5604AA30FDCA79E00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 134";
+		rLen = 0;
+		rLoc = 3365;
+		rType = 0;
+		vrLen = 1265;
+		vrLoc = 1440;
+	};
+	A5604AA60FDCA7AD00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 122";
+		rLen = 0;
+		rLoc = 2988;
+		rType = 0;
+		vrLen = 1414;
+		vrLoc = 2165;
+	};
+	A5604AA70FDCA7AD00EA3762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
+		name = "CameraView.cpp: 134";
+		rLen = 0;
+		rLoc = 3365;
+		rType = 0;
+		vrLen = 1265;
+		vrLoc = 1440;
 	};
 	A5CD855E0FD8AC8C00962BAA /* openFrameworks */ = {
 		isa = PBXExecutable;
@@ -4166,15 +5418,15 @@
 	A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1411, 718}}";
-			sepNavSelRange = "{426, 0}";
-			sepNavVisRange = "{0, 576}";
+			sepNavSelRange = "{565, 0}";
+			sepNavVisRange = "{0, 575}";
 		};
 	};
 	A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 1232}}";
-			sepNavSelRange = "{2240, 0}";
-			sepNavVisRange = "{1246, 1158}";
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 1946}}";
+			sepNavSelRange = "{2137, 244}";
+			sepNavVisRange = "{1605, 1393}";
 			sepNavWindowFrame = "{{363, 19}, {1131, 1009}}";
 		};
 	};
@@ -4201,16 +5453,17 @@
 	A5D85CD70FDAE58100DFE6AF /* CameraView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1411, 718}}";
-			sepNavSelRange = "{642, 0}";
-			sepNavVisRange = "{0, 817}";
+			sepNavSelRange = "{906, 0}";
+			sepNavVisRange = "{0, 917}";
 			sepNavWindowFrame = "{{15, 14}, {1131, 1009}}";
 		};
 	};
 	A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 1484}}";
-			sepNavSelRange = "{2523, 0}";
-			sepNavVisRange = "{1293, 1231}";
+			sepNavIntBoundsRect = "{{0, 0}, {1276, 2044}}";
+			sepNavSelRange = "{3365, 0}";
+			sepNavVisRange = "{1440, 1265}";
+			sepNavWindowFrame = "{{84, 95}, {1335, 865}}";
 		};
 	};
 	A5D85CE30FDAE5FF00DFE6AF /* PBXTextBookmark */ = {
@@ -4375,17 +5628,32 @@
 	};
 	E446643D0F5B1CFD005D0BF0 /* ofMath.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1072, 881}}";
-			sepNavSelRange = "{476, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 718}}";
+			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 1322}";
 			sepNavWindowFrame = "{{15, 14}, {1131, 1009}}";
 		};
 	};
 	E446643E0F5B1CFD005D0BF0 /* ofTypes.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 4480}}";
-			sepNavSelRange = "{4013, 15}";
-			sepNavVisRange = "{3528, 944}";
+			sepNavIntBoundsRect = "{{0, 0}, {1276, 4494}}";
+			sepNavSelRange = "{3605, 20}";
+			sepNavVisRange = "{3087, 950}";
+			sepNavWindowFrame = "{{107, 74}, {1335, 865}}";
+		};
+	};
+	E446643F0F5B1CFD005D0BF0 /* ofUtils.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 5208}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1417}";
+		};
+	};
+	E44664400F5B1CFD005D0BF0 /* ofUtils.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 840}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{34, 1317}";
 		};
 	};
 	E44664470F5B1CFD005D0BF0 /* ofVideoGrabber.cpp */ = {
@@ -4861,6 +6129,131 @@
 			A56049EA0FDC954F00EA3762 /* PBXTextBookmark */ = A56049EA0FDC954F00EA3762 /* PBXTextBookmark */;
 			A56049EB0FDC954F00EA3762 /* PBXTextBookmark */ = A56049EB0FDC954F00EA3762 /* PBXTextBookmark */;
 			A56049EC0FDC954F00EA3762 /* PBXTextBookmark */ = A56049EC0FDC954F00EA3762 /* PBXTextBookmark */;
+			A56049EE0FDC991900EA3762 /* PBXTextBookmark */ = A56049EE0FDC991900EA3762 /* PBXTextBookmark */;
+			A56049EF0FDC991900EA3762 /* PBXTextBookmark */ = A56049EF0FDC991900EA3762 /* PBXTextBookmark */;
+			A56049F00FDC991900EA3762 /* PBXTextBookmark */ = A56049F00FDC991900EA3762 /* PBXTextBookmark */;
+			A56049F10FDC991900EA3762 /* PBXTextBookmark */ = A56049F10FDC991900EA3762 /* PBXTextBookmark */;
+			A56049F40FDC9AB500EA3762 /* PBXTextBookmark */ = A56049F40FDC9AB500EA3762 /* PBXTextBookmark */;
+			A56049F50FDC9AB500EA3762 /* PBXTextBookmark */ = A56049F50FDC9AB500EA3762 /* PBXTextBookmark */;
+			A56049F60FDC9AB500EA3762 /* PBXTextBookmark */ = A56049F60FDC9AB500EA3762 /* PBXTextBookmark */;
+			A56049F70FDC9AB500EA3762 /* PBXTextBookmark */ = A56049F70FDC9AB500EA3762 /* PBXTextBookmark */;
+			A56049FB0FDC9AE200EA3762 /* PBXTextBookmark */ = A56049FB0FDC9AE200EA3762 /* PBXTextBookmark */;
+			A5604A020FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A020FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A030FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A030FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A040FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A040FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A050FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A050FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A060FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A060FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A070FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A070FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A080FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A080FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A090FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A090FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A0A0FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A0A0FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A0B0FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A0B0FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A0C0FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A0C0FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A0D0FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A0D0FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A0E0FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A0E0FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A0F0FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A0F0FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A100FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A100FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A110FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A110FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A120FDC9BAE00EA3762 /* PBXTextBookmark */ = A5604A120FDC9BAE00EA3762 /* PBXTextBookmark */;
+			A5604A130FDC9BDA00EA3762 /* PBXTextBookmark */ = A5604A130FDC9BDA00EA3762 /* PBXTextBookmark */;
+			A5604A150FDC9BDF00EA3762 /* PBXTextBookmark */ = A5604A150FDC9BDF00EA3762 /* PBXTextBookmark */;
+			A5604A160FDC9BDF00EA3762 /* PBXTextBookmark */ = A5604A160FDC9BDF00EA3762 /* PBXTextBookmark */;
+			A5604A190FDC9BEF00EA3762 /* PBXTextBookmark */ = A5604A190FDC9BEF00EA3762 /* PBXTextBookmark */;
+			A5604A1A0FDC9C0A00EA3762 /* PBXTextBookmark */ = A5604A1A0FDC9C0A00EA3762 /* PBXTextBookmark */;
+			A5604A2D0FDCA06F00EA3762 /* PBXTextBookmark */ = A5604A2D0FDCA06F00EA3762 /* PBXTextBookmark */;
+			A5604A2E0FDCA06F00EA3762 /* PBXTextBookmark */ = A5604A2E0FDCA06F00EA3762 /* PBXTextBookmark */;
+			A5604A2F0FDCA06F00EA3762 /* PBXTextBookmark */ = A5604A2F0FDCA06F00EA3762 /* PBXTextBookmark */;
+			A5604A300FDCA06F00EA3762 /* PBXTextBookmark */ = A5604A300FDCA06F00EA3762 /* PBXTextBookmark */;
+			A5604A310FDCA06F00EA3762 /* PBXTextBookmark */ = A5604A310FDCA06F00EA3762 /* PBXTextBookmark */;
+			A5604A320FDCA06F00EA3762 /* PBXTextBookmark */ = A5604A320FDCA06F00EA3762 /* PBXTextBookmark */;
+			A5604A350FDCA14600EA3762 /* PBXTextBookmark */ = A5604A350FDCA14600EA3762 /* PBXTextBookmark */;
+			A5604A3C0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A3C0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A3D0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A3D0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A3E0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A3E0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A3F0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A3F0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A400FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A400FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A410FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A410FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A420FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A420FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A430FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A430FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A440FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A440FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A450FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A450FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A460FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A460FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A470FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A470FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A480FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A480FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A490FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A490FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A4A0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A4A0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A4B0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A4B0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A4C0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A4C0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A4D0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A4D0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A4E0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A4E0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A4F0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A4F0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A500FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A500FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A510FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A510FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A520FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A520FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A530FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A530FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A540FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A540FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A550FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A550FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A560FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A560FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A570FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A570FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A580FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A580FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A590FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A590FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A5A0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A5A0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A5B0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A5B0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A5C0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A5C0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A5D0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A5D0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A5E0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A5E0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A5F0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A5F0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A600FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A600FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A610FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A610FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A620FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A620FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A630FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A630FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A640FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A640FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A650FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A650FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A660FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A660FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A670FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A670FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A6A0FDCA20F00EA3762 /* PBXTextBookmark */ = A5604A6A0FDCA20F00EA3762 /* PBXTextBookmark */;
+			A5604A6C0FDCA25600EA3762 /* PBXTextBookmark */ = A5604A6C0FDCA25600EA3762 /* PBXTextBookmark */;
+			A5604A6D0FDCA25600EA3762 /* PBXTextBookmark */ = A5604A6D0FDCA25600EA3762 /* PBXTextBookmark */;
+			A5604A6E0FDCA25600EA3762 /* PBXTextBookmark */ = A5604A6E0FDCA25600EA3762 /* PBXTextBookmark */;
+			A5604A6F0FDCA25600EA3762 /* PBXTextBookmark */ = A5604A6F0FDCA25600EA3762 /* PBXTextBookmark */;
+			A5604A740FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A740FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A750FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A750FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A760FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A760FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A770FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A770FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A780FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A780FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A790FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A790FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A7A0FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A7A0FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A7B0FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A7B0FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A7C0FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A7C0FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A7D0FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A7D0FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A7E0FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A7E0FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A7F0FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A7F0FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A800FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A800FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A810FDCA30F00EA3762 /* PBXTextBookmark */ = A5604A810FDCA30F00EA3762 /* PBXTextBookmark */;
+			A5604A820FDCA31F00EA3762 /* PBXTextBookmark */ = A5604A820FDCA31F00EA3762 /* PBXTextBookmark */;
+			A5604A850FDCA37200EA3762 /* PBXTextBookmark */ = A5604A850FDCA37200EA3762 /* PBXTextBookmark */;
+			A5604A860FDCA37200EA3762 /* PBXTextBookmark */ = A5604A860FDCA37200EA3762 /* PBXTextBookmark */;
+			A5604A870FDCA48600EA3762 /* PBXTextBookmark */ = A5604A870FDCA48600EA3762 /* PBXTextBookmark */;
+			A5604A8A0FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A8A0FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A8B0FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A8B0FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A8C0FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A8C0FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A8D0FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A8D0FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A8E0FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A8E0FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A8F0FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A8F0FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A900FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A900FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A910FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A910FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A920FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A920FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A930FDCA6A000EA3762 /* PBXTextBookmark */ = A5604A930FDCA6A000EA3762 /* PBXTextBookmark */;
+			A5604A960FDCA6C000EA3762 /* PBXTextBookmark */ = A5604A960FDCA6C000EA3762 /* PBXTextBookmark */;
+			A5604A970FDCA6C000EA3762 /* PBXTextBookmark */ = A5604A970FDCA6C000EA3762 /* PBXTextBookmark */;
+			A5604A9A0FDCA6DE00EA3762 /* PBXTextBookmark */ = A5604A9A0FDCA6DE00EA3762 /* PBXTextBookmark */;
+			A5604A9B0FDCA6DE00EA3762 /* PBXTextBookmark */ = A5604A9B0FDCA6DE00EA3762 /* PBXTextBookmark */;
+			A5604A9E0FDCA76000EA3762 /* PBXTextBookmark */ = A5604A9E0FDCA76000EA3762 /* PBXTextBookmark */;
+			A5604A9F0FDCA76000EA3762 /* PBXTextBookmark */ = A5604A9F0FDCA76000EA3762 /* PBXTextBookmark */;
+			A5604AA20FDCA79E00EA3762 /* PBXTextBookmark */ = A5604AA20FDCA79E00EA3762 /* PBXTextBookmark */;
+			A5604AA30FDCA79E00EA3762 /* PBXTextBookmark */ = A5604AA30FDCA79E00EA3762 /* PBXTextBookmark */;
+			A5604AA60FDCA7AD00EA3762 /* PBXTextBookmark */ = A5604AA60FDCA7AD00EA3762 /* PBXTextBookmark */;
+			A5604AA70FDCA7AD00EA3762 /* PBXTextBookmark */ = A5604AA70FDCA7AD00EA3762 /* PBXTextBookmark */;
 			A5CD859C0FD8B1D000962BAA = A5CD859C0FD8B1D000962BAA /* PlistBookmark */;
 			A5CD859D0FD8B1D000962BAA = A5CD859D0FD8B1D000962BAA /* PBXTextBookmark */;
 			A5CD85A30FD8B1D000962BAA = A5CD85A30FD8B1D000962BAA /* PlistBookmark */;
@@ -4903,15 +6296,15 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1411, 1008}}";
 			sepNavSelRange = "{571, 950}";
-			sepNavVisRange = "{154, 1329}";
+			sepNavVisRange = "{355, 1382}";
 			sepNavWindowFrame = "{{377, 19}, {1131, 1009}}";
 		};
 	};
 	E4B69E1F0A3A1BDC003C02F2 /* MainApp.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 448}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 718}}";
 			sepNavSelRange = "{548, 23}";
-			sepNavVisRange = "{285, 297}";
+			sepNavVisRange = "{0, 582}";
 			sepNavWindowFrame = "{{15, 158}, {1335, 865}}";
 		};
 	};

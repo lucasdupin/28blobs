@@ -4,6 +4,7 @@
 #include "ofMain.h";
 #include "settings.h";
 #include "ofTextureAdv.h";
+#include "utils.h"
 
 class CameraView{
 	
@@ -38,6 +39,10 @@ public:
 	ofImage fourPointHandle;
 	ofImage cropHandle;
 	ofImage moveHandle;
+
+	//Objects wich controll the interaction
+	void* hitObject;
+	ofPoint moveOffset;
 };
 
 #endif

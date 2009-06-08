@@ -53,6 +53,8 @@ void CameraView::update(){
 }
 
 void CameraView::draw(){
+	ofPushMatrix();
+	ofTranslate(position.x, position.y, position.z);
 	
 	//Drawing the image
 	ofSetColor(255,255,255);
@@ -98,9 +100,45 @@ void CameraView::draw(){
 	ofTranslate(width, 0, 0); ofRotateZ(90);
 	cropHandle.draw(crX, crY);
 	ofPopMatrix();
-	
+
 	//Move
 	moveHandle.draw(width/2 - moveHandle.width/2, height/2 - moveHandle.height/2);
 	
 	ofDisableAlphaBlending();
+	
+	ofPopMatrix();
+}
+
+//--------------------------------------------------------------
+void CameraView::mouseMoved(int x, int y ){
+	
+}
+
+//--------------------------------------------------------------
+void CameraView::mouseDragged(int x, int y, int button){
+	//Are we dragging something?
+	if(hitObject == &moveHandle){
+		cout << "updating position\n";
+		position.x = x - moveOffset.x;
+		position.y = y - moveOffset.y;
+	}
+}
+
+//--------------------------------------------------------------
+void CameraView::mousePressed(int x, int y, int button){
+	x-=position.x;
+	y-=position.y;
+	
+	//hit the move handle
+	if(hitRect(x, y, width/2 - moveHandle.width/2, height/2 - moveHandle.height/2, moveHandle.width, moveHandle.height)){
+		hitObject = &moveHandle;
+		moveOffset.x = x;
+		moveOffset.y = y;
+	}
+}
+
+//--------------------------------------------------------------
+void CameraView::mouseReleased(int x, int y, int button){
+	//Not dragging anything
+	hitObject = nil;
 }

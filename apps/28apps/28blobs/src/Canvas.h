@@ -29,7 +29,7 @@ public:
 	
 	CameraView * cameras;
 	int camNumber;
-	
+
 };
 
 #endif

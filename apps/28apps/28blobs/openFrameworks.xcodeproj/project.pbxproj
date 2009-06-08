@@ -10,6 +10,7 @@
 		A56047440FDC620E00EA3762 /* ofFBOTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A560473E0FDC620E00EA3762 /* ofFBOTexture.cpp */; };
 		A56047450FDC620E00EA3762 /* ofTextureAdv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56047400FDC620E00EA3762 /* ofTextureAdv.cpp */; };
 		A56047460FDC620E00EA3762 /* renderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56047420FDC620E00EA3762 /* renderManager.cpp */; };
+		A5604A220FDC9E7C00EA3762 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5604A210FDC9E7C00EA3762 /* utils.cpp */; };
 		A5D85C900FD8C1F500DFE6AF /* libOpenCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D85C7E0FD8C1F500DFE6AF /* libOpenCV.a */; };
 		A5D85C910FD8C1F500DFE6AF /* ofxCvColorImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85C810FD8C1F500DFE6AF /* ofxCvColorImage.cpp */; };
 		A5D85C920FD8C1F500DFE6AF /* ofxCvContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5D85C840FD8C1F500DFE6AF /* ofxCvContourFinder.cpp */; };
@@ -74,6 +75,8 @@
 		A56047410FDC620E00EA3762 /* ofTextureAdv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofTextureAdv.h; sourceTree = "<group>"; };
 		A56047420FDC620E00EA3762 /* renderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = renderManager.cpp; sourceTree = "<group>"; };
 		A56047430FDC620E00EA3762 /* renderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderManager.h; sourceTree = "<group>"; };
+		A5604A200FDC9DF200EA3762 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		A5604A210FDC9E7C00EA3762 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
 		A5D85C6D0FD8C1F500DFE6AF /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
 		A5D85C6E0FD8C1F500DFE6AF /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cv.hpp; sourceTree = "<group>"; };
 		A5D85C6F0FD8C1F500DFE6AF /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvaux.h; sourceTree = "<group>"; };
@@ -959,6 +962,8 @@
 				A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */,
 				A5D85E500FDAFE8400DFE6AF /* settings.h */,
 				A5D85E870FDB018C00DFE6AF /* settings.cpp */,
+				A5604A200FDC9DF200EA3762 /* utils.h */,
+				A5604A210FDC9E7C00EA3762 /* utils.cpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -1070,6 +1075,7 @@
 				A56047440FDC620E00EA3762 /* ofFBOTexture.cpp in Sources */,
 				A56047450FDC620E00EA3762 /* ofTextureAdv.cpp in Sources */,
 				A56047460FDC620E00EA3762 /* renderManager.cpp in Sources */,
+				A5604A220FDC9E7C00EA3762 /* utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

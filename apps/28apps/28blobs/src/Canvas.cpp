@@ -73,16 +73,64 @@ void Canvas::keyReleased(int key){
 
 //--------------------------------------------------------------
 void Canvas::mouseMoved(int x, int y ){
+	x-= position.x;
+	y-= position.y;
+	
+	//Did we hit a camera?
+	for(int i=0; i < camNumber; ++i){
+		if(x > cameras[i].position.x && x < cameras[i].position.x + cameras[i].width &&
+		   y > cameras[i].position.y && y < cameras[i].position.y + cameras[i].height){
+			cameras[i].mouseMoved(x,y);
+			//Never grab more than onde camera
+			break;
+		}
+	}
 }
 
 //--------------------------------------------------------------
 void Canvas::mouseDragged(int x, int y, int button){
+	x-= position.x;
+	y-= position.y;
+	
+	//Did we hit a camera?
+	for(int i=0; i < camNumber; ++i){
+		if(x > cameras[i].position.x && x < cameras[i].position.x + cameras[i].width &&
+		   y > cameras[i].position.y && y < cameras[i].position.y + cameras[i].height){
+			cameras[i].mouseDragged(x,y,button);
+			//Never grab more than onde camera
+			break;
+		}
+	}
 }
 
 //--------------------------------------------------------------
 void Canvas::mousePressed(int x, int y, int button){
+	x-= position.x;
+	y-= position.y;
+	
+	//Did we hit a camera?
+	for(int i=0; i < camNumber; ++i){
+		if(x > cameras[i].position.x && x < cameras[i].position.x + cameras[i].width &&
+		   y > cameras[i].position.y && y < cameras[i].position.y + cameras[i].height){
+			cameras[i].mousePressed(x,y,button);
+			//Never grab more than onde camera
+			break;
+		}
+	}	
 }
 
 //--------------------------------------------------------------
 void Canvas::mouseReleased(int x, int y, int button){
+	x-= position.x;
+	y-= position.y;
+	
+	//Did we hit a camera?
+	for(int i=0; i < camNumber; ++i){
+		if(x > cameras[i].position.x && x < cameras[i].position.x + cameras[i].width &&
+		   y > cameras[i].position.y && y < cameras[i].position.y + cameras[i].height){
+			cameras[i].mouseReleased(x,y,button);
+			//Never grab more than onde camera
+			break;
+		}
+	}
 }
