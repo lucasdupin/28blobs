@@ -122,8 +122,8 @@ void CameraView::mouseDragged(int x, int y, int button){
 		outputPositions[outputId].x = x;
 		outputPositions[outputId].y = y;
 	} else if (inputId >= 0) {
-		inputPositions[inputId].x = x/(outputPositions[inputId].x*1.0);
-		inputPositions[inputId].y = y/(outputPositions[inputId].y*1.0);
+		inputPositions[inputId].x = (x - inputPositions[inputId].x) / width;
+		inputPositions[inputId].y = (y - inputPositions[inputId].y) / height;
 	}
 }
 
