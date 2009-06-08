@@ -122,8 +122,8 @@ void CameraView::mouseDragged(int x, int y, int button){
 		outputPositions[outputId].x = x;
 		outputPositions[outputId].y = y;
 	} else if (inputId >= 0) {
-		inputPositions[inputId].x = x;
-		inputPositions[inputId].y = y;
+		inputPositions[inputId].x = x/(outputPositions[inputId].x*1.0);
+		inputPositions[inputId].y = y/(outputPositions[inputId].y*1.0);
 	}
 }
 
@@ -138,10 +138,17 @@ void CameraView::mousePressed(int x, int y, int button){
 	//any of the 4point handlers?
 	} else {
 		for(int i=0; i<4; i++){
+			if(hitRect(x, y, outputPositions[i].x-cropHandle.width/2, outputPositions[i].y-cropHandle.height/2, cropHandle.width, cropHandle.height)){
+				inputId = i;
+			}
+		}		
+		
+		if(inputId<0) //Only check output if input was not hitten
+		for(int i=0; i<4; i++){
 			if(hitRect(x, y, outputPositions[i].x-fourPointHandle.width/2, outputPositions[i].y-fourPointHandle.height/2, fourPointHandle.width, fourPointHandle.height)){
 				outputId = i;
 			}
-		}		
+		}
 	}
 	
 	moveOffset.x = x;

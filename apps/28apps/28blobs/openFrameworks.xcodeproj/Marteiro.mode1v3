@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A5604B930FDCBAEA00EA3762</string>
+						<string>A5604BB10FDCBD0500EA3762</string>
 						<key>history</key>
 						<array>
 							<string>A5604AF80FDCB20900EA3762</string>
@@ -308,6 +308,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>E4B69B4A0A3A1720003C02F2</string>
+								<string>E4B69E1C0A3A1BDC003C02F2</string>
 								<string>E44664170F5B1CFD005D0BF0</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>A5604B890FDCBAEA00EA3762</string>
@@ -316,6 +317,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>6</integer>
 									<integer>4</integer>
 									<integer>0</integer>
 								</array>
@@ -351,12 +353,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Canvas.h</string>
+								<string>CameraView.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -364,11 +368,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Canvas.h</string>
+										<string>CameraView.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A5604B920FDCBAEA00EA3762</string>
+										<string>A5604BB00FDCBD0500EA3762</string>
 										<key>history</key>
 										<array>
 											<string>A5D85DD40FDAFAF500DFE6AF</string>
@@ -381,7 +385,6 @@
 											<string>A56049180FDC792D00EA3762</string>
 											<string>A56049190FDC792D00EA3762</string>
 											<string>A5604A3E0FDCA20F00EA3762</string>
-											<string>A5604A3F0FDCA20F00EA3762</string>
 											<string>A5604A400FDCA20F00EA3762</string>
 											<string>A5604A410FDCA20F00EA3762</string>
 											<string>A5604A420FDCA20F00EA3762</string>
@@ -392,14 +395,15 @@
 											<string>A5604B040FDCB3C900EA3762</string>
 											<string>A5604B320FDCB5A900EA3762</string>
 											<string>A5604B330FDCB5A900EA3762</string>
-											<string>A5604B4D0FDCB7AB00EA3762</string>
 											<string>A5604B4F0FDCB7AB00EA3762</string>
 											<string>A5604B500FDCB7AB00EA3762</string>
 											<string>A5604B670FDCB91400EA3762</string>
-											<string>A5604B8A0FDCBAEA00EA3762</string>
 											<string>A5604B8B0FDCBAEA00EA3762</string>
 											<string>A5604B8C0FDCBAEA00EA3762</string>
-											<string>A5604B8D0FDCBAEA00EA3762</string>
+											<string>A5604B960FDCBBEE00EA3762</string>
+											<string>A5604B970FDCBBEE00EA3762</string>
+											<string>A5604B980FDCBBEE00EA3762</string>
+											<string>A5604B8A0FDCBAEA00EA3762</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -620,6 +624,9 @@
 											<string>A5604B8F0FDCBAEA00EA3762</string>
 											<string>A5604B900FDCBAEA00EA3762</string>
 											<string>A5604B910FDCBAEA00EA3762</string>
+											<string>A5604B990FDCBBEE00EA3762</string>
+											<string>A5604B9A0FDCBBEE00EA3762</string>
+											<string>A5604B9B0FDCBBEE00EA3762</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -641,8 +648,6 @@
 							<string>750pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
