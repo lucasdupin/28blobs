@@ -66,6 +66,11 @@ void Canvas::draw(){
 	glPushMatrix();
 	glTranslated(position.x, position.y, 0);
 	
+	//Black background
+	ofFill();
+	ofSetColor(0,0,0);
+	ofRect(0,0, width, height);
+	
 	//Drawing the analysis image
 	for(int i=camNumber-1; i >= 0; --i){
 		cameras[i].drawOutput();

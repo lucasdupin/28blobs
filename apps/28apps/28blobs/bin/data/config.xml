@@ -16,23 +16,20 @@
 			<width>320</width>
 			<height>240</height>
 		</camera>
-		<camera>
-			<width>320</width>
-			<height>240</height>
-		</camera>
 	</cameras>
 	
 	<!-- Theese are application settings, you won't need to change it! -->
 	<application>
 		<textColor>
-			<r>100</r><g>0</g><b>130</b>
+			<!-- <r>100</r><g>0</g><b>130</b> -->
+			<r>200</r><g>150</g><b>0</b>
 		</textColor>
 		<canvasColor>
-			<r>100</r><g>0</g><b>130</b>
+			<r>80</r><g>80</g><b>80</b>
 		</canvasColor>
 		<camera>
 			<borderColor>
-				<r>255</r><g>255</g><b>0</b>
+				<r>150</r><g>80</g><b>0</b>
 			</borderColor>
 		</camera>
 	</application>

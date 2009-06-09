@@ -85,9 +85,9 @@ void CameraView::draw(){
 	for(int i=0; i<4; i++){
 		ofPushMatrix();
 		ofTranslate(outputPositions[i].x, outputPositions[i].y, 0);
-		ofRotateZ(-90*i);
-		fourPointHandle.draw(0, 0);
 		ofRotateZ(90*i);
+		fourPointHandle.draw(0, 0);
+		ofRotateZ(-90*i);
 		cropHandle.draw(0, 0);
 		ofPopMatrix();
 	}
