@@ -123,22 +123,11 @@ void Canvas::mouseReleased(int x, int y, int button){
 }
 
 void Canvas::blobOn( int x, int y, int id, int order ) {
-    //cout << "blobOn() - id:" << id << " order:" << order << endl;
-	
-	//sendOSC("/create", id, x);
+    sendOSC("/create", id, x, y);
 }
 void Canvas::blobMoved( int x, int y, int id, int order) {
-    //cout << "blobMoved() - id:" << id << " order:" << order << endl;
-	
-    // full access to blob object ( get a reference)
-    //ofxCvTrackedBlob blob = blobTracker.getById( id );
-    //cout << "area: " << blob.area << endl;
-	
-	//sendOSC("/update", id, x);
-	
+    sendOSC("/update", id, x, y);	
 }
 void Canvas::blobOff( int x, int y, int id, int order ) {
-    //cout << "blobOff() - id:" << id << " order:" << order << endl;
-	
-	//sendOSC("/destroy", id, x);
+    sendOSC("/destroy", id, x, y);
 }

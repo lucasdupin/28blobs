@@ -10,6 +10,6 @@ bool hitRect(int x, int y, int rX, int rY, int rW, int rH);
 
 //OSC
 void setupOSC(std::string ip, int port);
-void sendOSC(const char * mensagem, int id, float valor);
+void sendOSC(const char * mensagem, int id, float x, float y);
 
 #endif
