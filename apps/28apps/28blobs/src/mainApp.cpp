@@ -8,6 +8,12 @@ void MainApp::setup(){
 	if(!settings.loadFile("config.xml"))
 		cout << "failed to load config.xml";
 	
+	//Text color
+	//My color
+	textColor.r = settings.getValue("teBlobs:application:textColor:r",30);
+	textColor.g = settings.getValue("teBlobs:application:textColor:g",30);
+	textColor.b = settings.getValue("teBlobs:application:textColor:b",30);
+	
 	//OSC
 	setupOSC(settings.getValue("teBlobs:osc:ip","localhost"), settings.getValue("teBlobs:osc:port",8888));
 	
@@ -16,7 +22,6 @@ void MainApp::setup(){
 	
 	windowResized(ofGetWidth(), ofGetHeight());
 	
-//	rmTest.allocateForNScreens(1, 700, 500);
 }
 
 //--------------------------------------------------------------
@@ -26,8 +31,8 @@ void MainApp::update(){
 
 //--------------------------------------------------------------
 void MainApp::draw(){
-	ofSetColor(255,255,255);
-	ofDrawBitmapString(ofToString(ofGetFrameRate(), 0), 10, 20);
+	ofSetColor(textColor.r, textColor.g, textColor.b);
+	ofDrawBitmapString(ofToString(ofGetFrameRate(), 0) + "FPS, F to toggle fullscreen, B for background or G for gui", 10, ofGetHeight()-15);
 	
 	canvas.draw();
 }

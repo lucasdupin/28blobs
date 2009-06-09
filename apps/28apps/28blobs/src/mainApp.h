@@ -25,6 +25,7 @@ class MainApp : public ofBaseApp{
 
 		Canvas canvas;
 
+		ofColor textColor;
 };
 
 #endif

@@ -17,7 +17,12 @@ void Canvas::setup(){
 	camBorderColor.b = settings.getValue("teBlobs:application:camera:borderColor:b",30);
 	
 	//The blob tracker
-	//tracker.setListener(this);
+	tracker.setListener(this);
+	
+	//Allocating space for detection images
+	background.allocate(width, height);
+	canvasColorOutput.allocate(width, height);
+	canvasGrayOutput.allocate(width, height);
 	
 	//My cameras
 	settings.pushTag("teBlobs");
@@ -70,6 +75,10 @@ void Canvas::update(){
 
 //--------------------------------------------------------------
 void Canvas::keyPressed(int key){
+	if(key == 'b' || key == 'B'){
+		background = canvasGrayOutput;
+		cout << "remebering background\n";
+	}
 }
 
 //--------------------------------------------------------------

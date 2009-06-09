@@ -5,8 +5,9 @@
 #include "CameraView.h"
 #include "settings.h"
 #include "ofxCvBlobTracker.h"
+#include "ofxCvMain.h"
 
-class Canvas{
+class Canvas: public ofxCvBlobListener{
 	
 public:
 	void virtual setup();
@@ -24,7 +25,13 @@ public:
 	void blobOn( int x, int y, int id, int order );
     void blobMoved( int x, int y, int id, int order );
     void blobOff( int x, int y, int id, int order );
+	
+	//Tracking objects
 	ofxCvBlobTracker tracker;
+	ofxCvContourFinder finder;
+	ofxCvGrayscaleImage background;
+	ofxCvColorImage canvasColorOutput; //Used for image convertion
+	ofxCvGrayscaleImage canvasGrayOutput;
 	
 	//Transformation
 	int width;
