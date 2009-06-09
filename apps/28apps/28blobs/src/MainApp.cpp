@@ -2,7 +2,6 @@
 
 //--------------------------------------------------------------
 void MainApp::setup(){
-	ofBackground(0,0,0);
 	
 	//Loading settings
 	if(!settings.loadFile("config.xml"))
@@ -22,6 +21,10 @@ void MainApp::setup(){
 	
 	windowResized(ofGetWidth(), ofGetHeight());
 	
+//	ofImage bg;
+	background.loadImage("background.png");
+//	background.allocate(bg.width, bg.height, OF_IMAGE_COLOR);
+//	background.loadData(bg.getPixels(), bg.width, bg.height, GL_RGBA);
 }
 
 //--------------------------------------------------------------
@@ -31,6 +34,9 @@ void MainApp::update(){
 
 //--------------------------------------------------------------
 void MainApp::draw(){
+	ofSetColor(255,255,255);
+	background.draw(0,0,ofGetWidth(), ofGetHeight());
+	
 	ofSetColor(textColor.r, textColor.g, textColor.b);
 	ofDrawBitmapString(ofToString(ofGetFrameRate(), 0) + "FPS, F to toggle fullscreen, B for background or G for gui", 10, ofGetHeight()-15);
 	
