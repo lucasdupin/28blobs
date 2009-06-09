@@ -12,9 +12,7 @@
 #ifndef OF_CV_TRACKEDBLOB_H
 #define OF_CV_TRACKEDBLOB_H
 
-#define OF_ADDON_USING_OFXOPENCV
-
-#include "ofAddons.h"
+#include "ofxCvMain.h"
 
 class ofxCvTrackedBlob : public ofxCvBlob {
   public:

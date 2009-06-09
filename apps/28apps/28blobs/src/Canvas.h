@@ -29,9 +29,18 @@ public:
 	//Tracking objects
 	ofxCvBlobTracker tracker;
 	ofxCvContourFinder finder;
-	ofxCvGrayscaleImage background;
+	ofxCvGrayscaleImage background; //Background for diff
 	ofxCvColorImage canvasColorOutput; //Used for image convertion
-	ofxCvGrayscaleImage canvasGrayOutput;
+	ofxCvGrayscaleImage canvasGrayOutput; //Image converted for analysis
+	ofxCvGrayscaleImage diffImage; //Image after diff
+	ofImage pixelGrabber; //To grab screen pixels
+	
+	int minBlobSize;
+	int maxBlobSize;
+	int maxBlobs;
+	
+	int threshold;
+	int blur;
 	
 	//Transformation
 	int width;

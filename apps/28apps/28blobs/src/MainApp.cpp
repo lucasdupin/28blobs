@@ -45,7 +45,7 @@ void MainApp::keyPressed(int key){
 //--------------------------------------------------------------
 void MainApp::keyReleased(int key){
 	//Set to fullscreen?
-	if(key == 'f'){
+	if(key == 'f' || key == 'F'){
 		ofSetFullscreen(!ofGetWindowMode());
 	}
 	

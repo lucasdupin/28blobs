@@ -5,6 +5,11 @@
 	<canvas>
 		<width>1000</width>
 		<height>600</height>
+		<threshold>80</threshold>
+		<blur>-1</blur>
+		<minBlobSize>20</minBlobSize>
+		<maxBlobSize>1000</maxBlobSize>
+		<maxBlobs>10</maxBlobs>
 	</canvas>
 	<cameras>
 		<camera>

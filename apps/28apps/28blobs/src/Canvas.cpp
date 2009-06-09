@@ -5,6 +5,15 @@ void Canvas::setup(){
 	width = settings.getValue("teBlobs:canvas:width", 400);
 	height = settings.getValue("teBlobs:canvas:height", 300);
 	
+	//Threshold & blur
+	threshold = settings.getValue("teBlobs:canvas:threshold",80);
+	blur = settings.getValue("teBlobs:canvas:blur",5);
+	
+	//Detection parameters
+	minBlobSize = settings.getValue("teBlobs:canvas:minBlobSize",0);
+	maxBlobSize = settings.getValue("teBlobs:canvas:maxBlobSize",2000);
+	maxBlobs = settings.getValue("teBlobs:canvas:maxBlobs",28);
+	
 	//My color
 	color.r = settings.getValue("teBlobs:application:canvasColor:r",30);
 	color.g = settings.getValue("teBlobs:application:canvasColor:g",30);
@@ -23,6 +32,8 @@ void Canvas::setup(){
 	background.allocate(width, height);
 	canvasColorOutput.allocate(width, height);
 	canvasGrayOutput.allocate(width, height);
+	diffImage.allocate(width,height);
+	pixelGrabber.allocate(width, height, OF_IMAGE_COLOR);
 	
 	//My cameras
 	settings.pushTag("teBlobs");
@@ -51,19 +62,42 @@ void Canvas::setup(){
 }
 
 void Canvas::draw(){
+	
 	glPushMatrix();
 	glTranslated(position.x, position.y, 0);
+	
+	//Drawing the analysis image
+	for(int i=camNumber-1; i >= 0; --i){
+		cameras[i].drawOutput();
+	}
+	//grabbing screen for detection
+	pixelGrabber.grabScreen(position.x,position.y,width,height);
 	
 	//drawing the cameras
 	for(int i=camNumber-1; i >= 0; --i){
 		cameras[i].draw();
 	}
 	
+	//Drawing blobs
+	ofEnableAlphaBlending();
+	ofFill();
+	ofSetColor(255,255,255);
+	finder.draw(0,0);
+	for (vector<ofxCvTrackedBlob>::iterator b = tracker.blobs.begin(); b != tracker.blobs.end(); b++) {
+
+		ofSetColor(color.r,color.g,color.b,100);
+		ofCircle(b->centroid.x, b->centroid.y, 10);
+		
+		ofSetColor(255,255,255,255);
+		ofDrawBitmapString(ofToString(b->id), b->centroid.x-5, b->centroid.y-5);
+	}
+	ofDisableAlphaBlending();
+	
 	//Drawing the canvas limit
 	ofSetColor(color.r, color.g, color.b);
 	ofNoFill();
 	ofRect(0,0, width, height);
-
+	
 	glPopMatrix();
 }
 void Canvas::update(){
@@ -71,6 +105,17 @@ void Canvas::update(){
 	for(int i=0; i < camNumber; ++i){
 		cameras[i].update();
 	}
+	
+	//Analysing the image
+	canvasColorOutput.setFromPixels(pixelGrabber.getPixels(), width, height);
+	canvasGrayOutput = canvasColorOutput;
+	diffImage.absDiff(background, canvasGrayOutput);
+	if(blur>0)
+		diffImage.blurGaussian(blur);
+	diffImage.threshold(threshold);
+	
+	finder.findContours(diffImage, minBlobSize, maxBlobSize, maxBlobs, false); //Do not search fo holes
+	tracker.trackBlobs(finder.blobs);
 }
 
 //--------------------------------------------------------------

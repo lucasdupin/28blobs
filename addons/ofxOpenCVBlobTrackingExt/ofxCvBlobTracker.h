@@ -21,7 +21,6 @@
 #include <map>
 #include <vector>
 #include "ofMain.h"
-#include "ofAddons.h"
 
 #include "ofxCvTrackedBlob.h"
 #include "ofxCvConstants_Track.h"
