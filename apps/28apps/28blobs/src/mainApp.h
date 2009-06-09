@@ -1,9 +1,10 @@
 #ifndef _MAIN_APP
 #define _MAIN_APP
 
-#include "ofMain.h";
+#include "ofMain.h"
 #include "settings.h"
-#include "Canvas.h";
+#include "utils.h"
+#include "Canvas.h"
 
 //#include "renderManager.h";
 

@@ -8,6 +8,9 @@ void MainApp::setup(){
 	if(!settings.loadFile("config.xml"))
 		cout << "failed to load config.xml";
 	
+	//OSC
+	setupOSC(settings.getValue("teBlobs:osc:ip","localhost"), settings.getValue("teBlobs:osc:port",8888));
+	
 	//Setup
 	canvas.setup();
 	

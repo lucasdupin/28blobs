@@ -14,7 +14,11 @@ bool hitRect(int x, int y, int rX, int rY, int rW, int rH){
 	
 }
 
-/*ofxOscSender oscSender;
+ofxOscSender oscSender;
+void setupOSC(std::string ip, int port){
+	cout << "OSC set up at: " << ip << ":" << port << endl;
+	oscSender.setup(ip, port);
+}
 void sendOSC(const char * mensagem, int id, float x, float y){
 	ofxOscMessage msg;
 	msg.setAddress(mensagem);
@@ -22,5 +26,5 @@ void sendOSC(const char * mensagem, int id, float x, float y){
 	msg.addFloatArg(x);
 	msg.addFloatArg(y);
 	
-//	oscSender.sendMessage(msg);
-}*/
+	oscSender.sendMessage(msg);
+}

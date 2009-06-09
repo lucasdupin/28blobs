@@ -124,7 +124,7 @@ void CameraView::mouseDragged(int x, int y, int button){
 	
 	//Are we dragging an object?
 	if(hitObject == &moveHandle){
-		cout << "updating position\n";
+		
 		position.x = x - moveOffset.x + position.x;
 		position.y = y - moveOffset.y + position.y;
 		
