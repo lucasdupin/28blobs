@@ -13,6 +13,8 @@ public:
 	void virtual update();
 	void virtual draw();
 	
+	void virtual drawOutput();
+	
 	void keyPressed  (int key);
 	void keyReleased(int key);
 	void mouseMoved(int x, int y );

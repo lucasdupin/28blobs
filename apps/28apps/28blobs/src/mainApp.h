@@ -2,7 +2,6 @@
 #define _MAIN_APP
 
 #include "ofMain.h";
-#include "ofxXmlSettings.h";
 #include "settings.h"
 #include "Canvas.h";
 
@@ -24,8 +23,7 @@ class MainApp : public ofBaseApp{
 		void windowResized(int w, int h);
 
 		Canvas canvas;
-	
-//	renderManager rmTest;
+
 };
 
 #endif

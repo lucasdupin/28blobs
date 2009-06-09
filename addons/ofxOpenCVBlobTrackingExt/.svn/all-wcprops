@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/28fingers/!svn/ver/1/trunk/addons/ofxOpenCVBlobTrackingExt
+END
+ofxCvBlobTracker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/28fingers/!svn/ver/1/trunk/addons/ofxOpenCVBlobTrackingExt/ofxCvBlobTracker.cpp
+END
+ofxCvBlobTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/28fingers/!svn/ver/1/trunk/addons/ofxOpenCVBlobTrackingExt/ofxCvBlobTracker.h
+END
+ofxCvTrackedBlob.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/28fingers/!svn/ver/1/trunk/addons/ofxOpenCVBlobTrackingExt/ofxCvTrackedBlob.h
+END
+ofxCvConstants_Track.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/28fingers/!svn/ver/1/trunk/addons/ofxOpenCVBlobTrackingExt/ofxCvConstants_Track.h
+END

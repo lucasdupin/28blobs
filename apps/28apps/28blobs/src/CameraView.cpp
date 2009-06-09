@@ -66,7 +66,6 @@ void CameraView::draw(){
 	ofSetColor(255,255,255);
 	theImage.setPoints(inputPositions, outputPositions);
 	theImage.draw();
-	//theImage.draw(0,0,width,height);
 	
 	//Drawing the border
 	ofSetColor(borderColor.r, borderColor.g, borderColor.b);
@@ -97,6 +96,18 @@ void CameraView::draw(){
 	moveHandle.draw(width/2 - moveHandle.width/2, height/2 - moveHandle.height/2);
 	
 	ofDisableAlphaBlending();
+	
+	ofPopMatrix();
+}
+
+void CameraView::drawOutput(){
+	ofPushMatrix();
+	ofTranslate(position.x, position.y, position.z);
+	
+	//Drawing the image
+	ofSetColor(255,255,255);
+	theImage.setPoints(inputPositions, outputPositions);
+	theImage.draw();
 	
 	ofPopMatrix();
 }

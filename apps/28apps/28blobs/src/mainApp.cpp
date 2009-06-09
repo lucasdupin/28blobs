@@ -23,6 +23,9 @@ void MainApp::update(){
 
 //--------------------------------------------------------------
 void MainApp::draw(){
+	ofSetColor(255,255,255);
+	ofDrawBitmapString(ofToString(ofGetFrameRate(), 0), 10, 20);
+	
 	canvas.draw();
 }
 

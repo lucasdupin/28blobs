@@ -1,9 +1,10 @@
 #ifndef _CANVAS
 #define _CANVAS
 
-#include "ofMain.h";
-#include "CameraView.h";
-#include "settings.h";
+#include "ofMain.h"
+#include "CameraView.h"
+#include "settings.h"
+#include "ofxCvBlobTracker.h"
 
 class Canvas{
 	
@@ -18,6 +19,12 @@ public:
 	void mouseDragged(int x, int y, int button);
 	void mousePressed(int x, int y, int button);
 	void mouseReleased(int x, int y, int button);
+	
+	//Blob Tracking
+	void blobOn( int x, int y, int id, int order );
+    void blobMoved( int x, int y, int id, int order );
+    void blobOff( int x, int y, int id, int order );
+	ofxCvBlobTracker tracker;
 	
 	//Transformation
 	int width;

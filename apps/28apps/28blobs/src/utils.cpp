@@ -13,3 +13,14 @@ bool hitRect(int x, int y, int rX, int rY, int rW, int rH){
 	
 	
 }
+
+/*ofxOscSender oscSender;
+void sendOSC(const char * mensagem, int id, float x, float y){
+	ofxOscMessage msg;
+	msg.setAddress(mensagem);
+	msg.addIntArg(id);
+	msg.addFloatArg(x);
+	msg.addFloatArg(y);
+	
+//	oscSender.sendMessage(msg);
+}*/

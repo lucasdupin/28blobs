@@ -16,6 +16,9 @@ void Canvas::setup(){
 	camBorderColor.g = settings.getValue("teBlobs:application:camera:borderColor:g",30);
 	camBorderColor.b = settings.getValue("teBlobs:application:camera:borderColor:b",30);
 	
+	//The blob tracker
+	//tracker.setListener(this);
+	
 	//My cameras
 	settings.pushTag("teBlobs");
 	settings.pushTag("cameras");
@@ -117,4 +120,25 @@ void Canvas::mouseReleased(int x, int y, int button){
 	for(int i=0; i < camNumber; ++i){
 			cameras[i].mouseReleased(x,y,button);
 	}
+}
+
+void Canvas::blobOn( int x, int y, int id, int order ) {
+    //cout << "blobOn() - id:" << id << " order:" << order << endl;
+	
+	//sendOSC("/create", id, x);
+}
+void Canvas::blobMoved( int x, int y, int id, int order) {
+    //cout << "blobMoved() - id:" << id << " order:" << order << endl;
+	
+    // full access to blob object ( get a reference)
+    //ofxCvTrackedBlob blob = blobTracker.getById( id );
+    //cout << "area: " << blob.area << endl;
+	
+	//sendOSC("/update", id, x);
+	
+}
+void Canvas::blobOff( int x, int y, int id, int order ) {
+    //cout << "blobOff() - id:" << id << " order:" << order << endl;
+	
+	//sendOSC("/destroy", id, x);
 }
