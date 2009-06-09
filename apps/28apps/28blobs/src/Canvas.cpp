@@ -47,7 +47,7 @@ void Canvas::draw(){
 	glTranslated(position.x, position.y, 0);
 	
 	//drawing the cameras
-	for(int i=0; i < camNumber; ++i){
+	for(int i=camNumber-1; i >= 0; --i){
 		cameras[i].draw();
 	}
 	
@@ -103,7 +103,8 @@ void Canvas::mousePressed(int x, int y, int button){
 	
 	//Did we hit a camera?
 	for(int i=0; i < camNumber; ++i){
-			cameras[i].mousePressed(x,y,button);
+			if (cameras[i].mousePressed(x,y,button))
+				break; //Only one camera by click
 	}	
 }
 

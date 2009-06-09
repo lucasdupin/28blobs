@@ -128,7 +128,7 @@ void CameraView::mouseDragged(int x, int y, int button){
 }
 
 //--------------------------------------------------------------
-void CameraView::mousePressed(int x, int y, int button){
+bool CameraView::mousePressed(int x, int y, int button){
 	x-=position.x;
 	y-=position.y;
 	
@@ -153,6 +153,12 @@ void CameraView::mousePressed(int x, int y, int button){
 	
 	moveOffset.x = x;
 	moveOffset.y = y;
+	
+	//Did we hit something?
+	if(hitObject != nil || inputId >= 0 || outputId >= 0)
+		return true;
+	else
+		return false;
 }
 
 //--------------------------------------------------------------

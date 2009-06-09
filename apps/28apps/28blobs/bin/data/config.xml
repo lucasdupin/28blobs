@@ -5,7 +5,10 @@
 	</canvas>
 	<cameras>
 		<camera>
-			<device>0</device>
+			<width>320</width>
+			<height>240</height>
+		</camera>
+		<camera>
 			<width>320</width>
 			<height>240</height>
 		</camera>
