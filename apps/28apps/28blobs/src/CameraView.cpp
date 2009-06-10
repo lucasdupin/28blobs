@@ -1,30 +1,35 @@
 #include "cameraView.h"
 
-void CameraView::setup(int w, int h, int cameraID){
+void CameraView::setup(int w, int h, int camID){
 	
 	//Initializing the videoGrabber
 	camera.setVerbose(true);
-	camera.setDeviceID(cameraID);
+	camera.setDeviceID(camID);
 	camera.initGrabber(w,h);
 	
 	//width and height variables
 	width = camera.getWidth();
 	height = camera.getHeight();
+	cameraID = camID;
 	
 	//The distortion texture
 	theImage.allocate(width, height, false);
 	
+	cameraSettings.loadFile("camera" + ofToString(cameraID) + ".xml");
+	
 	//setting the input and output points (distorion)
 	//of the texture
-	outputPositions[0].set(0, 0, 0);//top left
-	outputPositions[1].set(width, 0, 0);//bottom left
-	outputPositions[2].set(width, height, 0);//top right
-	outputPositions[3].set(0, height, 0);
+	outputPositions[0].set(cameraSettings.getValue("camera:out:x0",0), cameraSettings.getValue("camera:out:y0",0), 0);//top left
+	outputPositions[1].set(cameraSettings.getValue("camera:out:x1",width), cameraSettings.getValue("camera:out:y1",0), 0);//bottom left
+	outputPositions[2].set(cameraSettings.getValue("camera:out:x2",width), cameraSettings.getValue("camera:out:y2",height), 0);//top right
+	outputPositions[3].set(cameraSettings.getValue("camera:out:x3",0), cameraSettings.getValue("camera:out:y3",height), 0);
 	
-	inputPositions[0].set(0, 0);
-	inputPositions[1].set(1, 0);
-	inputPositions[2].set(1, 1);
-	inputPositions[3].set(0, 1);
+	inputPositions[0].set(cameraSettings.getValue("camera:in:x0",0), cameraSettings.getValue("camera:in:y0",0), 0);
+	inputPositions[1].set(cameraSettings.getValue("camera:in:x1",1), cameraSettings.getValue("camera:in:y1",0), 0);
+	inputPositions[2].set(cameraSettings.getValue("camera:in:x2",1), cameraSettings.getValue("camera:in:y2",1), 0);
+	inputPositions[3].set(cameraSettings.getValue("camera:in:x3",0), cameraSettings.getValue("camera:in:y3",1), 0);
+	
+	position.set(cameraSettings.getValue("camera:position:x",10), cameraSettings.getValue("camera:position:y",10), 0);
 	
 	//Setting up the interface
 	fourPointHandle.loadImage("4point.png");
@@ -36,6 +41,7 @@ void CameraView::setup(int w, int h, int cameraID){
 	
 	//No point selected
 	inputId = outputId = -1;
+	
 }
 
 void CameraView::update(){
@@ -110,6 +116,27 @@ void CameraView::drawOutput(){
 	theImage.draw();
 	
 	ofPopMatrix();
+}
+
+void CameraView::keyPressed(int key){
+	//Salvar
+	if(key == 's' || key == 'S'){
+		cameraSettings.setValue("camera:out:x0",outputPositions[0].x);cameraSettings.setValue("camera:out:y0",outputPositions[0].y);
+		cameraSettings.setValue("camera:out:x1",outputPositions[1].x);cameraSettings.setValue("camera:out:y1",outputPositions[1].y);
+		cameraSettings.setValue("camera:out:x2",outputPositions[2].x);cameraSettings.setValue("camera:out:y2",outputPositions[2].y);
+		cameraSettings.setValue("camera:out:x3",outputPositions[3].x);cameraSettings.setValue("camera:out:y3",outputPositions[3].y);
+		
+		cameraSettings.setValue("camera:in:x0",inputPositions[0].x);cameraSettings.setValue("camera:in:y0",inputPositions[0].y);
+		cameraSettings.setValue("camera:in:x1",inputPositions[1].x);cameraSettings.setValue("camera:in:y1",inputPositions[1].y);
+		cameraSettings.setValue("camera:in:x2",inputPositions[2].x);cameraSettings.setValue("camera:in:y2",inputPositions[2].y);
+		cameraSettings.setValue("camera:in:x3",inputPositions[3].x);cameraSettings.setValue("camera:in:y3",inputPositions[3].y);
+		
+		cameraSettings.setValue("camera:position:x",position.x);cameraSettings.setValue("camera:position:y",position.y);
+		
+		cameraSettings.saveFile("camera" + ofToString(cameraID) + ".xml");
+		
+		cout << "config saved for camera: " << cameraID << endl;
+	}
 }
 
 //--------------------------------------------------------------

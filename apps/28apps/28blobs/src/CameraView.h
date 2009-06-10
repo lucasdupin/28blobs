@@ -1,9 +1,10 @@
 #ifndef _CAMERA_VIEW
 #define _CAMERA_VIEW
 
-#include "ofMain.h";
-#include "settings.h";
-#include "ofTextureAdv.h";
+#include "ofMain.h"
+#include "settings.h"
+#include "ofTextureAdv.h"
+#include "ofxXmlSettings.h"
 #include "utils.h"
 
 class CameraView{
@@ -15,13 +16,16 @@ public:
 	
 	void virtual drawOutput();
 	
-	void keyPressed  (int key);
+	void keyPressed(int key);
 	void keyReleased(int key);
 	void mouseMoved(int x, int y );
 	void mouseDragged(int x, int y, int button);
 	bool mousePressed(int x, int y, int button);
 	void mouseReleased(int x, int y, int button);
 	void windowResized(int w, int h);
+	
+	int cameraID;
+	ofxXmlSettings cameraSettings;
 	
 	//Transformation
 	ofPoint position;

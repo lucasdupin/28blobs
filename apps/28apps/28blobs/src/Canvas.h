@@ -6,8 +6,17 @@
 #include "settings.h"
 #include "ofxCvBlobTracker.h"
 #include "ofxCvMain.h"
+#include "ofxGui.h"
 
-class Canvas: public ofxCvBlobListener{
+class Canvas: public ofxCvBlobListener, public ofxGuiListener{
+	enum{
+		kPanel_gui,
+		kThreshold_slider,
+		kBlur_slider,
+		kMinBlob_slider,
+		kMaxBlob_slider,
+		kMaxBlobs_slider
+	};
 	
 public:
 	void virtual setup();
@@ -52,6 +61,9 @@ public:
 	
 	CameraView * cameras;
 	int camNumber;
+	
+	ofxGui *gui;
+	void		handleGui(int parameterId, int task, void* data, int length);
 
 };
 

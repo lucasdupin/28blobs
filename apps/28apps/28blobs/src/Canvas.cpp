@@ -5,15 +5,6 @@ void Canvas::setup(){
 	width = settings.getValue("teBlobs:canvas:width", 400);
 	height = settings.getValue("teBlobs:canvas:height", 300);
 	
-	//Threshold & blur
-	threshold = settings.getValue("teBlobs:canvas:threshold",80);
-	blur = settings.getValue("teBlobs:canvas:blur",5);
-	
-	//Detection parameters
-	minBlobSize = settings.getValue("teBlobs:canvas:minBlobSize",0);
-	maxBlobSize = settings.getValue("teBlobs:canvas:maxBlobSize",2000);
-	maxBlobs = settings.getValue("teBlobs:canvas:maxBlobs",28);
-	
 	//My color
 	color.r = settings.getValue("teBlobs:application:canvasColor:r",30);
 	color.g = settings.getValue("teBlobs:application:canvasColor:g",30);
@@ -49,8 +40,6 @@ void Canvas::setup(){
 		settings.pushTag("camera", i);
 		
 		cameras[i].setup(settings.getValue("width",320), settings.getValue("height",240), settings.getValue("device",i));
-		cameras[i].position.x = settings.getValue("x", i*50);
-		cameras[i].position.y = settings.getValue("y", i*50);
 		cameras[i].borderColor = camBorderColor;
 		
 		settings.popTag();
@@ -59,6 +48,31 @@ void Canvas::setup(){
 	//Going back to the root of the xml
 	settings.popTag();
 	settings.popTag();
+	
+	//Threshold & blur
+	threshold = 80;
+	blur = settings.getValue("teBlobs:canvas:blur",-1);
+	
+	//Detection parameters
+	minBlobSize = 0;
+	maxBlobSize = 1000;
+	maxBlobs = 10;
+	gui	= ofxGui::Instance(this);
+	if(!gui->buildFromXml(OFXGUI_XML))
+	{	
+		ofxGuiPanel* panel1 = gui->addPanel(kPanel_gui, "Detection Properties", 10, 10, OFXGUI_PANEL_BORDER, OFXGUI_PANEL_SPACING);
+		
+		panel1->addSlider(kThreshold_slider, "threshold", 110, OFXGUI_SLIDER_HEIGHT, 0, 200, threshold, kofxGui_Display_Int, 0);
+		//panel1->addSlider(kBlur_slider, "blur", 110, OFXGUI_SLIDER_HEIGHT, 0, 10, blur, kofxGui_Display_Int, 0);
+		panel1->addSlider(kMinBlob_slider, "min blob size", 110, OFXGUI_SLIDER_HEIGHT, 0, 20, minBlobSize, kofxGui_Display_Int, 0);
+		panel1->addSlider(kMaxBlob_slider, "max blob size", 110, OFXGUI_SLIDER_HEIGHT, 0, 1000, maxBlobSize, kofxGui_Display_Int, 0);
+		panel1->addSlider(kMaxBlobs_slider, "max blobs number", 110, OFXGUI_SLIDER_HEIGHT, 0, 40, maxBlobs, kofxGui_Display_Int, 0);
+		
+		//	do update while inactive
+		gui->forceUpdate(true);
+		
+		cout << "gui was not loaded by XML, creating it with default values\n";
+	}
 }
 
 void Canvas::draw(){
@@ -103,6 +117,9 @@ void Canvas::draw(){
 	ofNoFill();
 	ofRect(0,0, width, height);
 	
+	//Drawing the GUI
+	gui->draw();
+	
 	glPopMatrix();
 }
 void Canvas::update(){
@@ -128,6 +145,14 @@ void Canvas::keyPressed(int key){
 	if(key == 'b' || key == 'B'){
 		background = canvasGrayOutput;
 		cout << "remebering background\n";
+	} else if(key == 'g' || key == 'G'){
+		gui->activate(!gui->mIsActive);
+	} else if(key == 's' || key == 'S'){
+		gui->saveToXml(OFXGUI_XML);
+	}
+	
+	for(int i=0; i < camNumber; ++i){
+		cameras[i].keyPressed(key);
 	}
 }
 
@@ -156,6 +181,8 @@ void Canvas::mouseDragged(int x, int y, int button){
 	for(int i=0; i < camNumber; ++i){
 			cameras[i].mouseDragged(x,y,button);
 	}
+	
+	gui->mouseDragged(x, y, button);
 }
 
 //--------------------------------------------------------------
@@ -167,7 +194,9 @@ void Canvas::mousePressed(int x, int y, int button){
 	for(int i=0; i < camNumber; ++i){
 			if (cameras[i].mousePressed(x,y,button))
 				break; //Only one camera by click
-	}	
+	}
+	
+	gui->mousePressed(x, y, button);
 }
 
 //--------------------------------------------------------------
@@ -178,6 +207,33 @@ void Canvas::mouseReleased(int x, int y, int button){
 	//Did we hit a camera?
 	for(int i=0; i < camNumber; ++i){
 			cameras[i].mouseReleased(x,y,button);
+	}
+	
+	gui->mouseReleased(x, y, button);
+}
+
+void Canvas::handleGui(int parameterId, int task, void* data, int length)
+{
+	switch(parameterId)
+	{
+		case kPanel_gui:
+			break;
+		case kThreshold_slider:
+			threshold = *(int*)data;
+			break;
+		case kBlur_slider:
+			blur = *(int*)data;
+			break;
+		case kMinBlob_slider:
+			minBlobSize = *(int*)data;
+			break;
+		case kMaxBlob_slider:
+			maxBlobSize = *(int*)data;
+			break;
+		case kMaxBlobs_slider:
+			maxBlobs = *(int*)data;
+			break;
+			
 	}
 }
 
