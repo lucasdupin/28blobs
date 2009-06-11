@@ -22,7 +22,7 @@ void MainApp::setup(){
 	windowResized(ofGetWidth(), ofGetHeight());
 	
 //	ofImage bg;
-	background.loadImage("background.png");
+	background.loadImage("assets/background.png");
 //	background.allocate(bg.width, bg.height, OF_IMAGE_COLOR);
 //	background.loadData(bg.getPixels(), bg.width, bg.height, GL_RGBA);
 }

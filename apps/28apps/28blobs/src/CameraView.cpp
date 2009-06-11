@@ -32,9 +32,9 @@ void CameraView::setup(int w, int h, int camID){
 	position.set(cameraSettings.getValue("camera:position:x",10), cameraSettings.getValue("camera:position:y",10), 0);
 	
 	//Setting up the interface
-	fourPointHandle.loadImage("4point.png");
-	cropHandle.loadImage("crop.png");
-	moveHandle.loadImage("move.png");
+	fourPointHandle.loadImage("assets/4point.png");
+	cropHandle.loadImage("assets/crop.png");
+	moveHandle.loadImage("assets/move.png");
 	
 	cropHandle.setAnchorPercent(.5, .5);
 	fourPointHandle.setAnchorPercent(.5, .5);
