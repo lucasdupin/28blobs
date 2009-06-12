@@ -16,15 +16,13 @@ void MainApp::setup(){
 	//OSC
 	setupOSC(settings.getValue("teBlobs:osc:ip","localhost"), settings.getValue("teBlobs:osc:port",8888));
 	
+	//Background
+	background.loadImage("assets/background.png");
+	
 	//Setup
 	canvas.setup();
 	
 	windowResized(ofGetWidth(), ofGetHeight());
-	
-//	ofImage bg;
-	background.loadImage("assets/background.png");
-//	background.allocate(bg.width, bg.height, OF_IMAGE_COLOR);
-//	background.loadData(bg.getPixels(), bg.width, bg.height, GL_RGBA);
 }
 
 //--------------------------------------------------------------
