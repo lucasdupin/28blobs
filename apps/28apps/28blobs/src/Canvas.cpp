@@ -64,7 +64,7 @@ void Canvas::setup(){
 		
 		panel1->addSlider(kThreshold_slider, "threshold", 110, OFXGUI_SLIDER_HEIGHT, 0, 200, threshold, kofxGui_Display_Int, 0);
 		//panel1->addSlider(kBlur_slider, "blur", 110, OFXGUI_SLIDER_HEIGHT, 0, 10, blur, kofxGui_Display_Int, 0);
-		panel1->addSlider(kMinBlob_slider, "min blob size", 110, OFXGUI_SLIDER_HEIGHT, 0, 20, minBlobSize, kofxGui_Display_Int, 0);
+		panel1->addSlider(kMinBlob_slider, "min blob size", 110, OFXGUI_SLIDER_HEIGHT, 0, 150, minBlobSize, kofxGui_Display_Int, 0);
 		panel1->addSlider(kMaxBlob_slider, "max blob size", 110, OFXGUI_SLIDER_HEIGHT, 0, 1000, maxBlobSize, kofxGui_Display_Int, 0);
 		panel1->addSlider(kMaxBlobs_slider, "max blobs number", 110, OFXGUI_SLIDER_HEIGHT, 0, 40, maxBlobs, kofxGui_Display_Int, 0);
 		

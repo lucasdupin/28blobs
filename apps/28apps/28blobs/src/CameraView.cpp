@@ -24,10 +24,12 @@ void CameraView::setup(int w, int h, int camID){
 	outputPositions[2].set(cameraSettings.getValue("camera:out:x2",width), cameraSettings.getValue("camera:out:y2",height), 0);//top right
 	outputPositions[3].set(cameraSettings.getValue("camera:out:x3",0), cameraSettings.getValue("camera:out:y3",height), 0);
 	
-	inputPositions[0].set(cameraSettings.getValue("camera:in:x0",0), cameraSettings.getValue("camera:in:y0",0), 0);
-	inputPositions[1].set(cameraSettings.getValue("camera:in:x1",1), cameraSettings.getValue("camera:in:y1",0), 0);
-	inputPositions[2].set(cameraSettings.getValue("camera:in:x2",1), cameraSettings.getValue("camera:in:y2",1), 0);
-	inputPositions[3].set(cameraSettings.getValue("camera:in:x3",0), cameraSettings.getValue("camera:in:y3",1), 0);
+	inputPositions[0].set(cameraSettings.getValue("camera:in:x0",.0), cameraSettings.getValue("camera:in:y0",.0), 0);
+	inputPositions[1].set(cameraSettings.getValue("camera:in:x1",1.0), cameraSettings.getValue("camera:in:y1",0.0), 0);
+	inputPositions[2].set(cameraSettings.getValue("camera:in:x2",1.0), cameraSettings.getValue("camera:in:y2",1.0), 0);
+	inputPositions[3].set(cameraSettings.getValue("camera:in:x3",.0), cameraSettings.getValue("camera:in:y3",1.0), 0);
+	
+	cout << "point 1 position:" << inputPositions[1].x << "," << inputPositions[1].y << endl;
 	
 	position.set(cameraSettings.getValue("camera:position:x",10), cameraSettings.getValue("camera:position:y",10), 0);
 	
