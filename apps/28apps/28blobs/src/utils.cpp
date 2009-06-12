@@ -1,5 +1,6 @@
 #include "utils.h";
 bool hitRect(ofPoint point, ofRectangle rect){
+	//cout << "point " << point.x << "," << point.y << " rect " << rect.x << "," << rect.y << "," << rect.width << "," << rect.height << endl;
 	return hitRect(point.x, point.y, rect.x, rect.y, rect.width, rect.height);
 }
 

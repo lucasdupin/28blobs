@@ -1,6 +1,6 @@
 #include "cameraView.h"
 
-int CameraView::CLOSE_BUTTON_MARGIN = 20;
+int CameraView::CLOSE_BUTTON_MARGIN = 30;
 
 void CameraView::setup(int w, int h, int camID){
 	
@@ -31,7 +31,7 @@ void CameraView::setup(int w, int h, int camID){
 	inputPositions[2].set(cameraSettings.getValue("camera:in:x2",1.0), cameraSettings.getValue("camera:in:y2",1.0), 0);
 	inputPositions[3].set(cameraSettings.getValue("camera:in:x3",.0), cameraSettings.getValue("camera:in:y3",1.0), 0);
 	
-	cout << "point 1 position:" << inputPositions[1].x << "," << inputPositions[1].y << endl;
+	visible = cameraSettings.getValue("camera:visible",1);
 	
 	position.set(cameraSettings.getValue("camera:position:x",10), cameraSettings.getValue("camera:position:y",10), 0);
 	
@@ -39,6 +39,7 @@ void CameraView::setup(int w, int h, int camID){
 	fourPointHandle.loadImage("assets/4point.png");
 	cropHandle.loadImage("assets/crop.png");
 	moveHandle.loadImage("assets/move.png");
+	closeButton.loadImage("assets/close.png");
 	
 	cropHandle.setAnchorPercent(.5, .5);
 	fourPointHandle.setAnchorPercent(.5, .5);
@@ -49,6 +50,7 @@ void CameraView::setup(int w, int h, int camID){
 }
 
 void CameraView::update(){
+	if(!visible) return;
 	
 	//Updating the texture with the image from the camera
 	camera.grabFrame();
@@ -69,6 +71,8 @@ void CameraView::update(){
 }
 
 void CameraView::draw(){
+	if(!visible) return;
+	
 	ofPushMatrix();
 	ofTranslate(position.x, position.y, position.z);
 	
@@ -105,12 +109,17 @@ void CameraView::draw(){
 	//Move
 	moveHandle.draw(width/2 - moveHandle.width/2, height/2 - moveHandle.height/2);
 	
+	//Close
+	closeButton.draw(outputPositions[1].x, outputPositions[1].y - CLOSE_BUTTON_MARGIN);
+	
 	ofDisableAlphaBlending();
 	
 	ofPopMatrix();
 }
 
 void CameraView::drawOutput(){
+	if(!visible) return;
+	
 	ofPushMatrix();
 	ofTranslate(position.x, position.y, position.z);
 	
@@ -137,9 +146,15 @@ void CameraView::keyPressed(int key){
 		
 		cameraSettings.setValue("camera:position:x",position.x);cameraSettings.setValue("camera:position:y",position.y);
 		
+		cameraSettings.setValue("camera:visible", visible);
+		
 		cameraSettings.saveFile("camera" + ofToString(cameraID) + ".xml");
 		
 		cout << "config saved for camera: " << cameraID << endl;
+		
+	//Set visible
+	} else if (key == 'v' || key == 'V'){
+		visible = true;
 	}
 }
 
@@ -150,6 +165,8 @@ void CameraView::mouseMoved(int x, int y ){
 
 //--------------------------------------------------------------
 void CameraView::mouseDragged(int x, int y, int button){
+	if(!visible) return;
+	
 	x-= position.x;
 	y-= position.y;
 	
@@ -171,6 +188,8 @@ void CameraView::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 bool CameraView::mousePressed(int x, int y, int button){
+	if(!visible) return false;
+	
 	x-=position.x;
 	y-=position.y;
 	
@@ -179,8 +198,9 @@ bool CameraView::mousePressed(int x, int y, int button){
 		hitObject = &moveHandle;
 		
 	//Close button?
-	} else if (hitRect(ofPoint(x,x), ofRectangle(width - closeButton.width - CLOSE_BUTTON_MARGIN, CLOSE_BUTTON_MARGIN, closeButton.width, closeButton.height))){
-		
+	} else if (hitRect(ofPoint(x,y), ofRectangle(outputPositions[1].x, outputPositions[1].y - CLOSE_BUTTON_MARGIN, closeButton.width, closeButton.height))){
+		cout << "hit close";
+		visible = false;
 	//any of the 4point handlers?
 	} else {
 		for(int i=0; i<4; i++){
@@ -209,6 +229,8 @@ bool CameraView::mousePressed(int x, int y, int button){
 
 //--------------------------------------------------------------
 void CameraView::mouseReleased(int x, int y, int button){
+	if(!visible) return;
+	
 	//Not dragging anything
 	hitObject = nil;
 	outputId = -1;
