@@ -5,7 +5,7 @@
 #include "ofxOsc.h"
 
 //Hit test
-bool hitRect(ofPoint * point, ofRectangle * rect);
+bool hitRect(ofPoint point, ofRectangle rect);
 bool hitRect(int x, int y, int rX, int rY, int rW, int rH);
 
 //OSC

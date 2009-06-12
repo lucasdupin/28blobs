@@ -1,5 +1,7 @@
 #include "cameraView.h"
 
+int CameraView::CLOSE_BUTTON_MARGIN = 20;
+
 void CameraView::setup(int w, int h, int camID){
 	
 	//Initializing the videoGrabber
@@ -173,19 +175,23 @@ bool CameraView::mousePressed(int x, int y, int button){
 	y-=position.y;
 	
 	//hit the move handle
-	if(hitRect(x, y, width/2 - moveHandle.width/2, height/2 - moveHandle.height/2, moveHandle.width, moveHandle.height)){
+	if(hitRect(ofPoint(x, y), ofRectangle(width/2 - moveHandle.width/2, height/2 - moveHandle.height/2, moveHandle.width, moveHandle.height))){
 		hitObject = &moveHandle;
+		
+	//Close button?
+	} else if (hitRect(ofPoint(x,x), ofRectangle(width - closeButton.width - CLOSE_BUTTON_MARGIN, CLOSE_BUTTON_MARGIN, closeButton.width, closeButton.height))){
+		
 	//any of the 4point handlers?
 	} else {
 		for(int i=0; i<4; i++){
-			if(hitRect(x, y, outputPositions[i].x-cropHandle.width/2, outputPositions[i].y-cropHandle.height/2, cropHandle.width, cropHandle.height)){
+			if(hitRect(ofPoint(x, y), ofRectangle(outputPositions[i].x-cropHandle.width/2, outputPositions[i].y-cropHandle.height/2, cropHandle.width, cropHandle.height))){
 				inputId = i;
 			}
 		}		
 		
 		if(inputId<0) //Only check output if input was not hitten
 		for(int i=0; i<4; i++){
-			if(hitRect(x, y, outputPositions[i].x-fourPointHandle.width/2, outputPositions[i].y-fourPointHandle.height/2, fourPointHandle.width, fourPointHandle.height)){
+			if(hitRect(ofPoint(x, y), ofRectangle(outputPositions[i].x-fourPointHandle.width/2, outputPositions[i].y-fourPointHandle.height/2, fourPointHandle.width, fourPointHandle.height))){
 				outputId = i;
 			}
 		}

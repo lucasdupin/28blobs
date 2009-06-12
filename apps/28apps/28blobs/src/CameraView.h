@@ -45,6 +45,8 @@ public:
 	ofImage fourPointHandle;
 	ofImage cropHandle;
 	ofImage moveHandle;
+	ofImage closeButton;
+	int static CLOSE_BUTTON_MARGIN;
 
 	//Objects wich control the interaction
 	void* hitObject;

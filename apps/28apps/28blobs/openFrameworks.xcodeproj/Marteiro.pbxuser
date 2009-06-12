@@ -202,8 +202,8 @@
 	};
 	A5604A210FDC9E7C00EA3762 /* utils.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 718}}";
-			sepNavSelRange = "{413, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 644}}";
+			sepNavSelRange = "{233, 0}";
 			sepNavVisRange = "{0, 648}";
 			sepNavWindowFrame = "{{333, -24}, {1335, 865}}";
 		};
@@ -731,7 +731,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */;
 		name = "MainApp.cpp: 20";
 		rLen = 0;
-		rLoc = 593;
+		rLoc = 657;
 		rType = 0;
 		vrLen = 1397;
 		vrLoc = 0;
@@ -771,7 +771,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 44";
 		rLen = 0;
-		rLoc = 1872;
+		rLoc = 2042;
 		rType = 0;
 		vrLen = 983;
 		vrLoc = 1741;
@@ -801,7 +801,7 @@
 		fRef = A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */;
 		name = "CameraView.cpp: 44";
 		rLen = 0;
-		rLoc = 1872;
+		rLoc = 2042;
 		rType = 0;
 		vrLen = 983;
 		vrLoc = 1741;
@@ -824,6 +824,42 @@
 		rLoc = 256;
 		rType = 0;
 		vrLen = 1207;
+		vrLoc = 0;
+	};
+	A5C03A1B0FE298A500F28850 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: ISO C++ forbids initialization of member ‘CLOSE_BUTTON_MARGIN’";
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		rLen = 1;
+		rLoc = 48;
+		rType = 1;
+	};
+	A5C03A1C0FE298A500F28850 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 49";
+		rLen = 33;
+		rLoc = 949;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 645;
+	};
+	A5C03A1E0FE298CA00F28850 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: uninitialized member ‘CameraView::CLOSE_BUTTON_MARGIN’ with ‘const’ type ‘const int’";
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
+	};
+	A5C03A1F0FE298CA00F28850 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5D85CD70FDAE58100DFE6AF /* CameraView.h */;
+		name = "CameraView.h: 11";
+		rLen = 0;
+		rLoc = 178;
+		rType = 0;
+		vrLen = 593;
 		vrLoc = 0;
 	};
 	A5CD855E0FD8AC8C00962BAA /* openFrameworks */ = {
@@ -908,7 +944,7 @@
 	};
 	A5D85CA60FDAE3AB00DFE6AF /* Canvas.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1188, 854}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 980}}";
 			sepNavSelRange = "{256, 0}";
 			sepNavVisRange = "{0, 1207}";
 			sepNavWindowFrame = "{{61, 116}, {1335, 865}}";
@@ -916,9 +952,9 @@
 	};
 	A5D85CA70FDAE3AC00DFE6AF /* Canvas.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1188, 3108}}";
-			sepNavSelRange = "{1200, 0}";
-			sepNavVisRange = "{825, 1746}";
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 3206}}";
+			sepNavSelRange = "{2276, 0}";
+			sepNavVisRange = "{1703, 1539}";
 			sepNavWindowFrame = "{{363, 19}, {1131, 1009}}";
 		};
 	};
@@ -944,17 +980,17 @@
 	};
 	A5D85CD70FDAE58100DFE6AF /* CameraView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1188, 784}}";
-			sepNavSelRange = "{62, 0}";
-			sepNavVisRange = "{0, 906}";
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 812}}";
+			sepNavSelRange = "{960, 0}";
+			sepNavVisRange = "{187, 914}";
 			sepNavWindowFrame = "{{15, 14}, {1131, 1009}}";
 		};
 	};
 	A5D85CD80FDAE58100DFE6AF /* CameraView.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1188, 2940}}";
-			sepNavSelRange = "{1872, 0}";
-			sepNavVisRange = "{1741, 983}";
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 2870}}";
+			sepNavSelRange = "{29, 0}";
+			sepNavVisRange = "{0, 2041}";
 			sepNavWindowFrame = "{{84, 95}, {1335, 865}}";
 		};
 	};
@@ -1289,6 +1325,10 @@
 			A5AE7A930FE07D0800D4A16E = A5AE7A930FE07D0800D4A16E /* PBXTextBookmark */;
 			A5AE7A940FE07D0800D4A16E = A5AE7A940FE07D0800D4A16E /* PBXTextBookmark */;
 			A5C039FB0FE1B64B00F28850 /* PBXTextBookmark */ = A5C039FB0FE1B64B00F28850 /* PBXTextBookmark */;
+			A5C03A1B0FE298A500F28850 /* PBXTextBookmark */ = A5C03A1B0FE298A500F28850 /* PBXTextBookmark */;
+			A5C03A1C0FE298A500F28850 /* PBXTextBookmark */ = A5C03A1C0FE298A500F28850 /* PBXTextBookmark */;
+			A5C03A1E0FE298CA00F28850 /* PBXTextBookmark */ = A5C03A1E0FE298CA00F28850 /* PBXTextBookmark */;
+			A5C03A1F0FE298CA00F28850 /* PBXTextBookmark */ = A5C03A1F0FE298CA00F28850 /* PBXTextBookmark */;
 			A5CD85A30FD8B1D000962BAA = A5CD85A30FD8B1D000962BAA /* PlistBookmark */;
 			A5CD85A40FD8B1D000962BAA = A5CD85A40FD8B1D000962BAA /* PBXTextBookmark */;
 			A5CD85A50FD8B1D000962BAA = A5CD85A50FD8B1D000962BAA /* PBXTextBookmark */;
@@ -1323,9 +1363,9 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* MainApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1188, 1232}}";
-			sepNavSelRange = "{593, 0}";
-			sepNavVisRange = "{0, 1397}";
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 1218}}";
+			sepNavSelRange = "{629, 0}";
+			sepNavVisRange = "{0, 1332}";
 			sepNavWindowFrame = "{{377, 19}, {1131, 1009}}";
 		};
 	};

@@ -3,7 +3,7 @@
 		<ip>127.0.0.1</ip><port>3333</port>
 	</osc>
 	<canvas>
-        <blur>-1</blur>
+        <blur>5</blur>
 		<width>1000</width>
 		<height>600</height>
 	</canvas>
@@ -18,7 +18,7 @@
 	<application>
         <textColor>
 			<!-- <r>100</r><g>0</g><b>130</b> -->
-			<r>200</r><g>150</g><b>0</b>
+			<r>0</r><g>120</g><b>200</b>
 		</textColor>
 		<canvasColor>
 			<r>80</r><g>80</g><b>80</b>
