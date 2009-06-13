@@ -64,6 +64,8 @@ public:
 	
 	ofxGui *gui;
 	void		handleGui(int parameterId, int task, void* data, int length);
+	
+	bool drawThreshold;
 
 };
 

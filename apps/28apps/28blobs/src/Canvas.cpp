@@ -5,6 +5,8 @@ void Canvas::setup(){
 	width = settings.getValue("teBlobs:canvas:width", 400);
 	height = settings.getValue("teBlobs:canvas:height", 300);
 	
+	drawThreshold = settings.getValue("teBlobs:canvas:drawThreshold", true);
+	
 	//My color
 	color.r = settings.getValue("teBlobs:application:canvasColor:r",30);
 	color.g = settings.getValue("teBlobs:application:canvasColor:g",30);
@@ -65,7 +67,7 @@ void Canvas::setup(){
 		panel1->addSlider(kThreshold_slider, "threshold", 110, OFXGUI_SLIDER_HEIGHT, 0, 200, threshold, kofxGui_Display_Int, 0);
 		//panel1->addSlider(kBlur_slider, "blur", 110, OFXGUI_SLIDER_HEIGHT, 0, 10, blur, kofxGui_Display_Int, 0);
 		panel1->addSlider(kMinBlob_slider, "min blob size", 110, OFXGUI_SLIDER_HEIGHT, 0, 150, minBlobSize, kofxGui_Display_Int, 0);
-		panel1->addSlider(kMaxBlob_slider, "max blob size", 110, OFXGUI_SLIDER_HEIGHT, 0, 1000, maxBlobSize, kofxGui_Display_Int, 0);
+		panel1->addSlider(kMaxBlob_slider, "max blob size", 110, OFXGUI_SLIDER_HEIGHT, 0, 10000, maxBlobSize, kofxGui_Display_Int, 0);
 		panel1->addSlider(kMaxBlobs_slider, "max blobs number", 110, OFXGUI_SLIDER_HEIGHT, 0, 40, maxBlobs, kofxGui_Display_Int, 0);
 		
 		//	do update while inactive
@@ -89,6 +91,7 @@ void Canvas::draw(){
 	for(int i=camNumber-1; i >= 0; --i){
 		cameras[i].drawOutput();
 	}
+	
 	//grabbing screen for detection
 	pixelGrabber.grabScreen(position.x,position.y,width,height);
 	
@@ -110,10 +113,18 @@ void Canvas::draw(){
 		ofSetColor(255,255,255,255);
 		ofDrawBitmapString(ofToString(b->id), b->centroid.x-5, b->centroid.y-5);
 	}
+	
+	//Draw detection image
+	if(drawThreshold){
+		glBlendFunc(GL_ONE, GL_ONE);
+		diffImage.draw(0,0);
+		ofEnableAlphaBlending();
+	}
+	
 	ofDisableAlphaBlending();
 	
 	//Drawing the canvas limit
-	ofSetColor(color.r, color.g, color.b);
+	ofSetColor(color.r, color.g, color.b, 255);
 	ofNoFill();
 	ofRect(0,0, width, height);
 	
@@ -134,6 +145,7 @@ void Canvas::update(){
 	diffImage.absDiff(background, canvasGrayOutput);
 	if(blur>0)
 		diffImage.blurGaussian(blur);
+	
 	diffImage.threshold(threshold);
 	
 	finder.findContours(diffImage, minBlobSize, maxBlobSize, maxBlobs, false); //Do not search fo holes
@@ -149,6 +161,10 @@ void Canvas::keyPressed(int key){
 		gui->activate(!gui->mIsActive);
 	} else if(key == 's' || key == 'S'){
 		gui->saveToXml(OFXGUI_XML);
+		settings.setValue("teBlobs:canvas:drawThreshold",drawThreshold);
+		settings.saveFile("config.xml");
+	} else if (key == 't' || key == 'T') {
+		drawThreshold = !drawThreshold;
 	}
 	
 	for(int i=0; i < camNumber; ++i){
@@ -219,30 +235,32 @@ void Canvas::handleGui(int parameterId, int task, void* data, int length)
 		case kPanel_gui:
 			break;
 		case kThreshold_slider:
-			threshold = *(int*)data;
+			threshold = *(float*)data;
 			break;
 		case kBlur_slider:
-			blur = *(int*)data;
+			blur = *(float*)data;
 			break;
 		case kMinBlob_slider:
-			minBlobSize = *(int*)data;
+			minBlobSize = *(float*)data;
 			break;
 		case kMaxBlob_slider:
-			maxBlobSize = *(int*)data;
+			maxBlobSize = *(float*)data;
 			break;
 		case kMaxBlobs_slider:
-			maxBlobs = *(int*)data;
+			maxBlobs = *(float*)data;
 			break;
 			
 	}
+	
+	cout << "gui data " << *(int*)data << endl;
 }
 
 void Canvas::blobOn( int x, int y, int id, int order ) {
-    sendOSC("/create", id, x, y);
+    sendOSC("/create", id, x/width, y/height);
 }
 void Canvas::blobMoved( int x, int y, int id, int order) {
-    sendOSC("/update", id, x, y);	
+    sendOSC("/update", id, x/width, y/height);	
 }
 void Canvas::blobOff( int x, int y, int id, int order ) {
-    sendOSC("/destroy", id, x, y);
+    sendOSC("/destroy", id, x/width, y/height);
 }

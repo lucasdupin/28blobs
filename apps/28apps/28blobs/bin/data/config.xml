@@ -1,32 +1,39 @@
 <teBlobs>
-	<osc>
-		<ip>127.0.0.1</ip><port>3333</port>
-	</osc>
-	<canvas>
-        <blur>5</blur>
-		<width>1000</width>
-		<height>600</height>
-	</canvas>
-	<cameras>
-		<camera>
-			<width>320</width>
-			<height>240</height>
-		</camera>
-	</cameras>
-	
-	<!-- Theese are application settings, you won't need to change it! -->
-	<application>
+    <osc>
+        <ip>127.0.0.1</ip>
+        <port>3333</port>
+    </osc>
+    <canvas>
+        <blur>4</blur>
+        <width>1000</width>
+        <height>600</height>
+        <drawThreshold>1</drawThreshold>
+    </canvas>
+    <cameras>
+        <camera>
+            <width>320</width>
+            <height>240</height>
+        </camera>
+    </cameras>
+    <!-- Theese are application settings, you won't need to change it! -->
+    <application>
         <textColor>
-			<!-- <r>100</r><g>0</g><b>130</b> -->
-			<r>0</r><g>120</g><b>200</b>
-		</textColor>
-		<canvasColor>
-			<r>80</r><g>80</g><b>80</b>
-		</canvasColor>
-		<camera>
-			<borderColor>
-				<r>150</r><g>80</g><b>0</b>
-			</borderColor>
-		</camera>
-	</application>
+            <!-- <r>100</r><g>0</g><b>130</b> -->
+            <r>0</r>
+            <g>120</g>
+            <b>200</b>
+        </textColor>
+        <canvasColor>
+            <r>80</r>
+            <g>80</g>
+            <b>80</b>
+        </canvasColor>
+        <camera>
+            <borderColor>
+                <r>150</r>
+                <g>80</g>
+                <b>0</b>
+            </borderColor>
+        </camera>
+    </application>
 </teBlobs>

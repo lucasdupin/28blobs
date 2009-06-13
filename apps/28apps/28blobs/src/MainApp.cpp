@@ -36,7 +36,7 @@ void MainApp::draw(){
 	background.draw(0,0,ofGetWidth(), ofGetHeight());
 	
 	ofSetColor(textColor.r, textColor.g, textColor.b);
-	ofDrawBitmapString(ofToString(ofGetFrameRate(), 0) + "FPS, F to toggle fullscreen, B for background or G for gui, S to save, V to show all hidden cameras", 10, ofGetHeight()-15);
+	ofDrawBitmapString(ofToString(ofGetFrameRate(), 0) + "FPS, F to toggle fullscreen, B for background or G for gui, S to save, V to show hidden cameras, T for threshold", 10, ofGetHeight()-15);
 	
 	canvas.draw();
 }
