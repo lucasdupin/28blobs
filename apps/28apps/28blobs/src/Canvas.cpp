@@ -281,11 +281,11 @@ void Canvas::handleGui(int parameterId, int task, void* data, int length)
 }
 
 void Canvas::blobOn( int x, int y, int id, int order ) {
-    sendOSC("/create", id, x/width, y/height);
+    sendOSC("/create", id, 1.0*x/width, 1.0*y/height);
 }
 void Canvas::blobMoved( int x, int y, int id, int order) {
-    sendOSC("/update", id, x/width, y/height);	
+    sendOSC("/update", id, 1.0*x/width, 1.0*y/height);	
 }
 void Canvas::blobOff( int x, int y, int id, int order ) {
-    sendOSC("/destroy", id, x/width, y/height);
+    sendOSC("/destroy", id, 1.0*x/width, 1.0*y/height);
 }
